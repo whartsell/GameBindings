@@ -24,7 +24,7 @@ local diff = {
 				},
 			},
 		},
-		["a3005cd2"] = {
+		["a3005cd5"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -37,93 +37,19 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
-					["key"] = "JOY_RX",
+					["key"] = "JOY_RY",
 				},
 			},
-			["name"] = "Throttle (analog)",
+			["name"] = "Throttle",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a3008cd2"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Engine RPM (analog)",
-		},
-		["a3009cd5"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-			["name"] = "Gun Sight Range (analog)",
-		},
 	},
 	["keyDiffs"] = {
-		["d3009pnilunilcd1vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN46",
-				},
-			},
-			["name"] = "Flaps RETRACT",
-		},
-		["d3009pnilunilcd1vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN47",
-				},
-			},
-			["name"] = "Flaps EXTEND",
-		},
-		["d3009pnilunilcd2vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Mixture Control IDLE CUT-OFF",
-		},
-		["d3009pnilunilcd2vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Mixture Control RUN",
-		},
-		["d3015pnilu3015cd5vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "Drop Bombs",
-		},
-		["d3023pnilu3023cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN41",
-				},
-			},
-			["name"] = "Starter",
-		},
-		["d3025pnilunilcd1vd0vpnilvunil"] = {
+		["d3001pnilunilcd4vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN44",
@@ -131,7 +57,7 @@ local diff = {
 			},
 			["name"] = "Undercarriage UP",
 		},
-		["d3025pnilunilcd1vd1vpnilvunil"] = {
+		["d3002pnilunilcd4vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN45",
@@ -139,45 +65,109 @@ local diff = {
 			},
 			["name"] = "Undercarriage DOWN",
 		},
-		["d3027pnilu3027cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN42",
-				},
-			},
-			["name"] = "Booster Coil",
-		},
-		["d3030pnilu3030cd1vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN55",
-				},
-			},
-			["name"] = "Trim Elevator NOSE DOWN",
-		},
-		["d3032pnilu3032cd1vd1vpnilvu0"] = {
+		["d3008pnilu3008cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN54",
 				},
 			},
-			["name"] = "Trim Elevator NOSE UP",
+			["name"] = "Trim Stabilizer NOSE UP",
 		},
-		["d3045pnilu3045cd1vd1vpnilvu0"] = {
+		["d3009pnilu3009cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN51",
+					["key"] = "JOY_BTN55",
 				},
 			},
-			["name"] = "Trim Rudder LEFT",
+			["name"] = "Trim Stabilizer NOSE DOWN",
 		},
-		["d3047pnilu3047cd1vd1vpnilvu0"] = {
+		["d3010pnilu3010cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN52",
+					["key"] = "JOY_BTN47",
 				},
 			},
-			["name"] = "Trim Rudder RIGHT",
+			["name"] = "Flaps EXTEND",
+		},
+		["d3011pnilu3011cd4vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN46",
+				},
+			},
+			["name"] = "Flaps RETRACT",
+		},
+		["d3022pnilunilcd4vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "Tail Wheel Lock (toggle)",
+		},
+		["d3037pnilunilcd1vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "MW 50 Boost System (toggle)",
+		},
+		["d3058pnilunilcd1vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN30",
+				},
+			},
+			["name"] = "Governor Automation OFF",
+		},
+		["d3058pnilunilcd1vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Governor Automation ON",
+		},
+		["d3060pnilu3060cd1vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN29",
+				},
+			},
+			["name"] = "Engine RPM DECREASE",
+		},
+		["d3060pnilu3060cd1vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN31",
+				},
+			},
+			["name"] = "Engine RPM INCREASE",
+		},
+		["d3065pnilu3065cd1vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN41",
+				},
+			},
+			["name"] = "Starter",
+		},
+		["d3067pnilunilcd1vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Magnetos (next set)",
+		},
+		["d3069pnilunilcd1vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Magnetos (prev. set)",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -240,14 +230,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

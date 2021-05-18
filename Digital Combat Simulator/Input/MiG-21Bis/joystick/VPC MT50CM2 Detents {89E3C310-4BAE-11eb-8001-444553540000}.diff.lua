@@ -57,6 +57,24 @@ local diff = {
 				},
 			},
 		},
+		["a3213cd41"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "TDC Range / Pipper Span control",
+		},
 		["a73cdnil"] = {
 			["name"] = "Wheel Brakes Lever",
 			["removed"] = {
@@ -91,10 +109,18 @@ local diff = {
 			},
 			["name"] = "Airbrakes On/Off",
 		},
+		["d3120pnilunilcd14vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN38",
+				},
+			},
+			["name"] = "Gears Handle Lock released",
+		},
 		["d3121pnilunilcd14vd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN56",
+					["key"] = "JOY_BTN45",
 				},
 			},
 			["name"] = "Gears Down",
@@ -102,7 +128,7 @@ local diff = {
 		["d3121pnilunilcd14vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN57",
+					["key"] = "JOY_BTN41",
 				},
 			},
 			["name"] = "Gears Handle Neutral",
@@ -110,7 +136,7 @@ local diff = {
 		["d3121pnilunilcd14vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN58",
+					["key"] = "JOY_BTN44",
 				},
 			},
 			["name"] = "Gears Up",

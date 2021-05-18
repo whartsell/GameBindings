@@ -1,5 +1,31 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Flight Control Cyclic Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Flight Control Cyclic Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
 		["a2003cdnil"] = {
 			["name"] = "Flight Control Rudder",
 			["removed"] = {
@@ -83,6 +109,14 @@ local diff = {
 					["key"] = "JOY_BTN2",
 				},
 			},
+		},
+		["d855pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN30",
+				},
+			},
+			["name"] = "Wheel Parking Brake",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
 			["added"] = {

@@ -31,11 +31,11 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.08,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = false,
+						["slider"] = true,
 					},
 					["key"] = "JOY_RY",
 				},
@@ -53,7 +53,7 @@ local diff = {
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = false,
+						["slider"] = true,
 					},
 					["key"] = "JOY_RZ",
 				},
@@ -67,11 +67,11 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.08,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = false,
+						["slider"] = true,
 					},
 					["key"] = "JOY_RX",
 				},
@@ -80,6 +80,14 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Communication menu",
+		},
 		["d3015pnilu3015cd3vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -185,7 +193,7 @@ local diff = {
 			["name"] = "Oil Cooler Shutter OPEN",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Bomb Release (D-30 & D-40)",
+			["name"] = "Weapon release",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",

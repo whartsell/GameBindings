@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
+			["name"] = "Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,109 +9,54 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
+			["name"] = "Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
 				},
 			},
 		},
-		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
 		["a2004cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RX",
-				},
-			},
-			["name"] = "Corrector",
-		},
-		["a2087cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_RY",
-				},
-			},
-			["name"] = "Flight Control Collective",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
+		["a3162cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Wheel Brake Left",
+		},
+		["a3163cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Wheel Brake Right",
+		},
 	},
 	["keyDiffs"] = {
-		["d3004pnilunilcd36vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN68",
-				},
-			},
-			["name"] = "SPU-7 Mode Switch - RADIO",
-		},
-		["d3004pnilunilcd36vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "SPU-7 Mode Switch - ICS",
-		},
-		["d3017pnilunilcd36vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "SPU-7 Radio Source Select Rotary - CCW/Left",
-		},
-		["d3017pnilunilcd36vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "SPU-7 Radio Source Select Rotary - CW/Right",
-		},
-		["d3025pnilu3025cd36vd1vpnilvu0"] = {
-			["name"] = "Radio trigger - RADIO",
+		["d10006pnilu10007cdnilvdnilvpnilvunil"] = {
+			["name"] = "Gun-Rocket Trigger",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
 		},
-		["d84pnilu84cdnilvd1vpnilvu0"] = {
-			["name"] = "Release weapons",
+		["d10008pnilu10009cdnilvdnilvpnilvunil"] = {
+			["name"] = "Bomb Release Button",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
-		},
-		["d856pnilu857cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN21",
-				},
-			},
-			["name"] = "Collective brake - Assign altitude lever",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -174,14 +119,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

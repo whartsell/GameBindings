@@ -1,5 +1,31 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
@@ -41,13 +67,21 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d22pnilunilcdnilvdnilvpnilvunil"] = {
+		["d3067pnilu3067cd8vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Toggle tracking fire weapon",
+			["name"] = "SAU cancel current mode",
+		},
+		["d3068pnilu3068cd8vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "SAU - Recovery",
 		},
 		["d3132pnilu3132cd9vd1vpnilvu0"] = {
 			["added"] = {
@@ -56,6 +90,14 @@ local diff = {
 				},
 			},
 			["name"] = "Trim Pitch Down",
+		},
+		["d3168pnilunilcd42vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "Missiles - Rockets Launch On/Off",
 		},
 		["d3191pnilu3191cd42vd1vpnilvu0"] = {
 			["added"] = {
@@ -69,6 +111,14 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
+		},
+		["d3193pnilu3193cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN25",
+				},
+			},
+			["name"] = "Weapon Release",
 		},
 		["d3196pnilu3196cd42vd1vpnilvu0"] = {
 			["added"] = {

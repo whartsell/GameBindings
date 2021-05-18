@@ -73,7 +73,7 @@ local diff = {
 	},
 	["keyDiffs"] = {
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["name"] = "Bomb Release",
+			["name"] = "Weapon release",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",

@@ -1,54 +1,15 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
-		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RX",
-				},
-			},
-			["name"] = "Corrector",
-		},
-		["a2087cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_RY",
-				},
-			},
-			["name"] = "Flight Control Collective",
+		["a3005cd5"] = {
+			["name"] = "Throttle",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -57,61 +18,64 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3004pnilunilcd36vd0vpnilvunil"] = {
+		["d3008pnilu3008cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN68",
+					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "SPU-7 Mode Switch - RADIO",
+			["name"] = "Trim Stabilizer NOSE UP",
 		},
-		["d3004pnilunilcd36vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "SPU-7 Mode Switch - ICS",
-		},
-		["d3017pnilunilcd36vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "SPU-7 Radio Source Select Rotary - CCW/Left",
-		},
-		["d3017pnilunilcd36vd1vpnilvunil"] = {
+		["d3009pnilu3009cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "SPU-7 Radio Source Select Rotary - CW/Right",
+			["name"] = "Trim Stabilizer NOSE DOWN",
 		},
-		["d3025pnilu3025cd36vd1vpnilvu0"] = {
-			["name"] = "Radio trigger - RADIO",
-			["removed"] = {
+		["d3053pnilu3053cd1vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN25",
+				},
+			},
+			["name"] = "Bomb Release (B2)",
+		},
+		["d3055pnilu3055cd1vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN30",
+				},
+			},
+			["name"] = "Charge MK 108 (D)",
+		},
+		["d3074pnilunilcd1vd1vpnilvunil"] = {
+			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
+				[2] = {
+					["key"] = "JOY_BTN36",
+				},
 			},
+			["name"] = "Guns Safety Lever (toggle)",
 		},
-		["d84pnilu84cdnilvd1vpnilvu0"] = {
-			["name"] = "Release weapons",
-			["removed"] = {
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Fire Cannon / Rockets (B1)",
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
-		},
-		["d856pnilu857cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN21",
-				},
-			},
-			["name"] = "Collective brake - Assign altitude lever",
+			["name"] = "Fire Machineguns (A)",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -174,14 +138,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

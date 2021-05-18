@@ -1,23 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["name"] = "Flight Control Cyclic Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
-		["a2002cdnil"] = {
-			["name"] = "Flight Control Cyclic Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
 		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
+			["name"] = "Rudder",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_RZ",
@@ -25,30 +9,7 @@ local diff = {
 			},
 		},
 		["a2004cdnil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_RX",
-				},
-			},
-			["name"] = "Corrector",
-		},
-		["a2087cdnil"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_RY",
-				},
-			},
-			["name"] = "Flight Control Collective",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -57,61 +18,79 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3004pnilunilcd36vd0vpnilvunil"] = {
+		["d10006pnilu10007cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN68",
+					["key"] = "JOY_BTN2",
 				},
 			},
-			["name"] = "SPU-7 Mode Switch - RADIO",
-		},
-		["d3004pnilunilcd36vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN35",
-				},
-			},
-			["name"] = "SPU-7 Mode Switch - ICS",
-		},
-		["d3017pnilunilcd36vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "SPU-7 Radio Source Select Rotary - CCW/Left",
-		},
-		["d3017pnilunilcd36vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "SPU-7 Radio Source Select Rotary - CW/Right",
-		},
-		["d3025pnilu3025cd36vd1vpnilvu0"] = {
-			["name"] = "Radio trigger - RADIO",
+			["name"] = "Gun-Rocket Trigger",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
 		},
-		["d84pnilu84cdnilvd1vpnilvu0"] = {
-			["name"] = "Release weapons",
+		["d10008pnilu10009cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Bomb Release Button",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
 		},
-		["d856pnilu857cdnilvdnilvpnilvunil"] = {
+		["d10123pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN21",
+					["key"] = "JOY_BTN4",
 				},
 			},
-			["name"] = "Collective brake - Assign altitude lever",
+			["name"] = "AFCS Override Button",
+		},
+		["d10177pnilu10178cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Nose Wheel Steering",
+		},
+		["dnilp10113u10119cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Trimmer Switch - NOSE UP",
+		},
+		["dnilp10114u10119cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "Trimmer Switch - NOSE DOWN",
+		},
+		["dnilp10115u10119cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Trimmer Switch - LEFT WING DOWN",
+		},
+		["dnilp10116u10119cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Trimmer Switch - RIGHT WING DOWN",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -174,14 +153,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

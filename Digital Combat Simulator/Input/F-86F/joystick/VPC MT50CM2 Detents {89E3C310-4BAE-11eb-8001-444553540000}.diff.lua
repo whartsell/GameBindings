@@ -24,7 +24,7 @@ local diff = {
 				},
 			},
 		},
-		["a3005cd2"] = {
+		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -40,144 +40,137 @@ local diff = {
 					["key"] = "JOY_RX",
 				},
 			},
-			["name"] = "Throttle (analog)",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a3008cd2"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Engine RPM (analog)",
-		},
-		["a3009cd5"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-			["name"] = "Gun Sight Range (analog)",
-		},
 	},
 	["keyDiffs"] = {
-		["d3009pnilunilcd1vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN46",
-				},
-			},
-			["name"] = "Flaps RETRACT",
-		},
-		["d3009pnilunilcd1vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN47",
-				},
-			},
-			["name"] = "Flaps EXTEND",
-		},
-		["d3009pnilunilcd2vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Mixture Control IDLE CUT-OFF",
-		},
-		["d3009pnilunilcd2vd1vpnilvunil"] = {
-			["added"] = {
+		["d100pnilu1627cdnilvdnilvpnilvunil"] = {
+			["name"] = "A-4 Sight Radar Target Selector Button",
+			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "Mixture Control RUN",
 		},
-		["d3015pnilu3015cd5vd1vpnilvu0"] = {
+		["d3002pnilunilcd13vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN62",
 				},
 			},
-			["name"] = "Drop Bombs",
+			["name"] = "Throttle - Start Engine",
 		},
-		["d3023pnilu3023cd2vd1vpnilvu0"] = {
+		["d3003pnilunilcd13vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN41",
+					["key"] = "JOY_BTN61",
+					["reformers"] = {
+						[1] = "LCtrl",
+					},
 				},
 			},
-			["name"] = "Starter",
+			["name"] = "Throttle - Stop Engine",
 		},
-		["d3025pnilunilcd1vd0vpnilvunil"] = {
+		["d3005pnilunilcd2vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN30",
+				},
+			},
+			["name"] = "Speed Brake Switch - OUT",
+		},
+		["d3005pnilunilcd2vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Speed Brake Switch - IN",
+		},
+		["d3020pnilunilcd22vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "A-4 Sight Manual Ranging Control (Throttle Twist Grip) - Return to CCW spring-loaded position",
+		},
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+			["name"] = "Weapon Release",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN44",
 				},
 			},
-			["name"] = "Undercarriage UP",
+			["name"] = "Landing Gear Up",
 		},
-		["d3025pnilunilcd1vd1vpnilvunil"] = {
+		["d431pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN45",
 				},
 			},
-			["name"] = "Undercarriage DOWN",
+			["name"] = "Landing Gear Down",
 		},
-		["d3027pnilu3027cd2vd1vpnilvu0"] = {
-			["added"] = {
+		["d562pnilu606cdnilvdnilvpnilvunil"] = {
+			["name"] = "Nosewheel Steering Button",
+			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN42",
+					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Booster Coil",
 		},
-		["d3030pnilu3030cd1vd1vpnilvu0"] = {
+		["d73pnilunilcdnilvd-1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN55",
+					["key"] = "JOY_BTN29",
 				},
 			},
-			["name"] = "Trim Elevator NOSE DOWN",
+			["name"] = "Speed Brake Switch - Down",
 		},
-		["d3032pnilu3032cd1vd1vpnilvu0"] = {
+		["d73pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN54",
+					["key"] = "JOY_BTN31",
 				},
 			},
-			["name"] = "Trim Elevator NOSE UP",
+			["name"] = "Speed Brake Switch - Up",
 		},
-		["d3045pnilu3045cd1vd1vpnilvu0"] = {
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["name"] = "Trigger - SECOND DETENT(Gun Fire)",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
+		["dnilp145u145cdnilvdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN51",
+					["key"] = "JOY_BTN47",
 				},
 			},
-			["name"] = "Trim Rudder LEFT",
+			["name"] = "Flaps Down",
 		},
-		["d3047pnilu3047cd1vd1vpnilvu0"] = {
+		["dnilp146u146cdnilvdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN52",
+					["key"] = "JOY_BTN46",
 				},
 			},
-			["name"] = "Trim Rudder RIGHT",
+			["name"] = "Flaps Up",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -211,6 +204,22 @@ local diff = {
 				},
 			},
 		},
+		["dnilp3018unilcd22vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "A-4 Sight Manual Ranging Control (Throttle Twist Grip) - CCW/Increase",
+		},
+		["dnilp3019unilcd22vdnilvp1vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "A-4 Sight Manual Ranging Control (Throttle Twist Grip) - CW/Decrease",
+		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",
 			["removed"] = {
@@ -240,14 +249,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

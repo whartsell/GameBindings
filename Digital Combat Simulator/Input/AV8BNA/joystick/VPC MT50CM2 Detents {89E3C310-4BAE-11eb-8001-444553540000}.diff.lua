@@ -67,6 +67,14 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d179pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Communication menu",
+		},
 		["d252pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -130,6 +138,22 @@ local diff = {
 				},
 			},
 			["name"] = "Water Mode Down (TO - OFF - LDG)",
+		},
+		["d572pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "COMM FWD: Select COMM 1",
+		},
+		["d573pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN25",
+				},
+			},
+			["name"] = "COMM AFT: Select COMM 2",
 		},
 		["d590pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {

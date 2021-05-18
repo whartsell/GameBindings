@@ -31,7 +31,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.08,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -68,6 +68,16 @@ local diff = {
 		["a3009cd5"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
 					["key"] = "JOY_Z",
 				},
 			},
@@ -78,7 +88,7 @@ local diff = {
 		["d3009pnilunilcd1vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN44",
+					["key"] = "JOY_BTN46",
 				},
 			},
 			["name"] = "Flaps RETRACT",
@@ -86,7 +96,7 @@ local diff = {
 		["d3009pnilunilcd1vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN45",
+					["key"] = "JOY_BTN47",
 				},
 			},
 			["name"] = "Flaps EXTEND",
@@ -126,7 +136,7 @@ local diff = {
 		["d3025pnilunilcd1vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN48",
+					["key"] = "JOY_BTN44",
 				},
 			},
 			["name"] = "Undercarriage UP",
@@ -134,7 +144,7 @@ local diff = {
 		["d3025pnilunilcd1vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN49",
+					["key"] = "JOY_BTN45",
 				},
 			},
 			["name"] = "Undercarriage DOWN",

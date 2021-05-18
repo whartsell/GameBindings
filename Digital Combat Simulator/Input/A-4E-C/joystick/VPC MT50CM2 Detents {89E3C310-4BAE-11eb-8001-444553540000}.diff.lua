@@ -24,7 +24,7 @@ local diff = {
 				},
 			},
 		},
-		["a3005cd2"] = {
+		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -37,147 +37,167 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
-					["key"] = "JOY_RX",
+					["key"] = "JOY_RY",
 				},
 			},
-			["name"] = "Throttle (analog)",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
 		},
-		["a3008cd2"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_RZ",
-				},
-			},
-			["name"] = "Engine RPM (analog)",
-		},
-		["a3009cd5"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-			["name"] = "Gun Sight Range (analog)",
-		},
 	},
 	["keyDiffs"] = {
-		["d3009pnilunilcd1vd0vpnilvunil"] = {
+		["d10001pnilu10000cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN46",
 				},
 			},
-			["name"] = "Flaps RETRACT",
+			["name"] = "FLAP Switch - UP else STOP",
 		},
-		["d3009pnilunilcd1vd1vpnilvunil"] = {
+		["d10002pnilu10000cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN47",
 				},
 			},
-			["name"] = "Flaps EXTEND",
+			["name"] = "FLAP Switch - DOWN else STOP",
 		},
-		["d3009pnilunilcd2vd0vpnilvunil"] = {
+		["d10004pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN48",
+				},
+			},
+			["name"] = "Spoilers ARM-OFF Switch - ARM",
+		},
+		["d10005pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN49",
+				},
+			},
+			["name"] = "Spoilers ARM-OFF Switch - OFF",
+		},
+		["d10006pnilu10007cdnilvdnilvpnilvunil"] = {
+			["name"] = "Gun-Rocket Trigger",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
+		["d10008pnilu10009cdnilvdnilvpnilvunil"] = {
+			["name"] = "Bomb Release Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d10093pnilunilcdnilvd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
-			["name"] = "Mixture Control IDLE CUT-OFF",
+			["name"] = "Master Exterior Lights Switch - OFF",
 		},
-		["d3009pnilunilcd2vd1vpnilvunil"] = {
+		["d10093pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "Mixture Control RUN",
+			["name"] = "Master Exterior Lights Switch - ON",
 		},
-		["d3015pnilu3015cd5vd1vpnilvu0"] = {
+		["d10179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "Drop Bombs",
+			["name"] = "Radio Push to Talk (PTT)",
 		},
-		["d3023pnilu3023cd2vd1vpnilvu0"] = {
+		["d147pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN41",
+					["key"] = "JOY_BTN30",
 				},
 			},
-			["name"] = "Starter",
+			["name"] = "Speedbrake Switch - OPEN",
 		},
-		["d3025pnilunilcd1vd0vpnilvunil"] = {
+		["d148pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN28",
+				},
+			},
+			["name"] = "Speedbrake Switch - CLOSE",
+		},
+		["d3157pnilunilcd19vd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN63",
+				},
+				[2] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "Throttle OFF/IGN/IDLE - Step Down",
+		},
+		["d3157pnilunilcd19vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN64",
+				},
+				[2] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Throttle OFF/IGN/IDLE - Step Up",
+		},
+		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN44",
 				},
 			},
-			["name"] = "Undercarriage UP",
+			["name"] = "Landing Gear Handle - UP",
 		},
-		["d3025pnilunilcd1vd1vpnilvunil"] = {
+		["d431pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN45",
 				},
 			},
-			["name"] = "Undercarriage DOWN",
+			["name"] = "Landing Gear Handle - DOWN",
 		},
-		["d3027pnilu3027cd2vd1vpnilvu0"] = {
+		["d73pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN42",
+					["key"] = "JOY_BTN27",
 				},
 			},
-			["name"] = "Booster Coil",
+			["name"] = "Speedbrake Switch - OPEN/CLOSE",
 		},
-		["d3030pnilu3030cd1vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN55",
-				},
-			},
-			["name"] = "Trim Elevator NOSE DOWN",
-		},
-		["d3032pnilu3032cd1vd1vpnilvu0"] = {
+		["dnilp10117u10119cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN54",
 				},
 			},
-			["name"] = "Trim Elevator NOSE UP",
+			["name"] = "Rudder Trim Switch - Rudder Left",
 		},
-		["d3045pnilu3045cd1vd1vpnilvu0"] = {
+		["dnilp10118u10119cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN51",
+					["key"] = "JOY_BTN55",
 				},
 			},
-			["name"] = "Trim Rudder LEFT",
-		},
-		["d3047pnilu3047cd1vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN52",
-				},
-			},
-			["name"] = "Trim Rudder RIGHT",
+			["name"] = "Rudder Trim Switch - Rudder Right",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -240,14 +260,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},

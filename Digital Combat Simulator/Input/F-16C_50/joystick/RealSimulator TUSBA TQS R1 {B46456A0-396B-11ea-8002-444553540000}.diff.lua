@@ -33,7 +33,7 @@ local diff = {
 						},
 						["deadzone"] = 0,
 						["invert"] = false,
-						["saturationX"] = 0.93,
+						["saturationX"] = 0.84,
 						["saturationY"] = 1,
 						["slider"] = true,
 					},

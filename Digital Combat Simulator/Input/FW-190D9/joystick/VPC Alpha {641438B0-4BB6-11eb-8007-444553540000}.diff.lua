@@ -1,67 +1,46 @@
 local diff = {
-	["axisDiffs"] = {
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
-		["a3004cd1"] = {
-			["added"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = false,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_SLIDER1",
-				},
-			},
-			["name"] = "Wheel Brakes (analog)",
-		},
-		["a3005cd2"] = {
-			["name"] = "Throttle (analog)",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-		},
-	},
 	["keyDiffs"] = {
-		["d3002pnilunilcd5vd1vpnilvunil"] = {
+		["d3012pnilu3012cd8vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN36",
-				},
-				[2] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "Guns Safety Lever (toggle)",
+			["name"] = "Trim Elevator Up",
+		},
+		["d3012pnilu3012cd8vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Trim Elevator Down",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN25",
 				},
 			},
-			["name"] = "Fire Cannons",
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["added"] = {
+			["name"] = "Weapon release",
+			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
-			["name"] = "Fire Machineguns",
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "MG131/151 fire",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -124,14 +103,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
 				},
 			},
 		},
