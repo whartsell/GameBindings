@@ -315,14 +315,6 @@ local diff = {
 			},
 			["name"] = "Speed brake toggle",
 		},
-		["d3718pnilu3718cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN26",
-				},
-			},
-			["name"] = "Mic Button ICS - SRS Only / No Menu",
-		},
 		["d3719pnilu3719cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {

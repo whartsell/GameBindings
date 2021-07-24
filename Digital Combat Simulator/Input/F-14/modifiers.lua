@@ -1,6 +1,6 @@
 local modifiers = {
 	["JOY_BTN18"] = {
-		["device"] = "VPC VFX {BDC25C40-4BB4-11eb-8005-444553540000}",
+		["device"] = "VPC VFX {BE623CF0-BEFB-11eb-8001-444553540000}",
 		["key"] = "JOY_BTN18",
 		["switch"] = false,
 	},
