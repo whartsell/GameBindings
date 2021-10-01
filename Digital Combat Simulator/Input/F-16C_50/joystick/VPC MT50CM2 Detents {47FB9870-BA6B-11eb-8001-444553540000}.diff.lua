@@ -31,7 +31,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.07,
+						["deadzone"] = 0.08,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -50,6 +50,16 @@ local diff = {
 		["a3032cd16"] = {
 			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.2,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_Z",
 				},
 			},
@@ -169,7 +179,7 @@ local diff = {
 					["key"] = "JOY_BTN9",
 				},
 			},
-			["name"] = "Transmit Switch - VHF",
+			["name"] = "Transmit Switch - VHF (call radio menu)",
 		},
 		["d3025pnilu3025cd16vd1vpnilvu0"] = {
 			["added"] = {
@@ -177,7 +187,7 @@ local diff = {
 					["key"] = "JOY_BTN11",
 				},
 			},
-			["name"] = "Transmit Switch - UHF",
+			["name"] = "Transmit Switch - UHF (call radio menu)",
 		},
 		["d3026pnilu3026cd16vd1vpnilvu0"] = {
 			["added"] = {

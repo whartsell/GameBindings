@@ -1,58 +1,6 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Flight Control Cyclic Pitch",
-		},
-		["a2002cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "Flight Control Cyclic Roll",
-		},
-		["a2003cdnil"] = {
-			["name"] = "Flight Control Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
-		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
-		},
-		["a2101cdnil"] = {
+		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -68,10 +16,65 @@ local diff = {
 					["key"] = "JOY_SLIDER1",
 				},
 			},
-			["name"] = "Wheel brake",
+			["name"] = "Throttle (Collective)",
+		},
+		["a2087cdnil"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "Flight Control Collective",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
 		},
 	},
 	["keyDiffs"] = {
+		["d3020pnilu3020cd9vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "Left Headlight - Down",
+		},
+		["d3020pnilu3020cd9vd2vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Left Headlight - Up",
+		},
+		["d3020pnilu3020cd9vd3vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Left Headlight - Left",
+		},
+		["d3020pnilu3020cd9vd4vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "Left Headlight - Right",
+		},
 		["d3025pnilu3025cd36vd1vpnilvu0"] = {
 			["name"] = "Radio trigger - RADIO",
 			["removed"] = {
@@ -79,38 +82,6 @@ local diff = {
 					["key"] = "JOY_BTN1",
 				},
 			},
-		},
-		["d3086pnilunilcd12vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "RS Button Cover - CLOSE",
-		},
-		["d3086pnilunilcd12vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN36",
-				},
-			},
-			["name"] = "RS Button Cover - OPEN",
-		},
-		["d3087pnilu3087cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "RS Button",
-		},
-		["d538pnilu297cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Turn Off Autopilot Button",
 		},
 		["d84pnilu84cdnilvd1vpnilvu0"] = {
 			["name"] = "Release weapons",
@@ -120,21 +91,29 @@ local diff = {
 				},
 			},
 		},
-		["d855pnilunilcdnilvdnilvpnilvunil"] = {
+		["d853pnilu853cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN30",
+					["key"] = "JOY_BTN4",
 				},
 			},
-			["name"] = "Wheel Parking Brake",
+			["name"] = "Readjust Free Turbine RPM Switch - Increase",
 		},
-		["d957pnilu958cdnilvdnilvpnilvunil"] = {
+		["d854pnilu854cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN25",
+					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "Trimmer Button",
+			["name"] = "Readjust Free Turbine RPM Switch - Decrease",
+		},
+		["d856pnilu857cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Collective brake - Assign altitude lever",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
