@@ -90,7 +90,7 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3016pnilunilcd17vd0vpnilvunil"] = {
+		["d3016pnilunilcd18vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN44",
@@ -98,7 +98,7 @@ local diff = {
 			},
 			["name"] = "Gears Up",
 		},
-		["d3016pnilunilcd17vd1vpnilvunil"] = {
+		["d3016pnilunilcd18vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN45",
@@ -106,7 +106,15 @@ local diff = {
 			},
 			["name"] = "Gears Down",
 		},
-		["d3024pnilu3024cd16vd1vpnilvu0"] = {
+		["d3021pnilu3021cd18vd0vpnilvu1"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN37",
+				},
+			},
+			["name"] = "Hook Retract, else Extend",
+		},
+		["d3024pnilu3024cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN20",
@@ -114,7 +122,7 @@ local diff = {
 			},
 			["name"] = "Wing Sweep Auto Mode",
 		},
-		["d3025pnilu3025cd16vd1vpnilvu0"] = {
+		["d3025pnilu3025cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN17",
@@ -122,7 +130,7 @@ local diff = {
 			},
 			["name"] = "Wing Sweep Forward",
 		},
-		["d3026pnilu3026cd16vd1vpnilvu0"] = {
+		["d3026pnilu3026cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN19",
@@ -130,7 +138,7 @@ local diff = {
 			},
 			["name"] = "Wing Sweep Aft",
 		},
-		["d3027pnilu3027cd16vd1vpnilvu0"] = {
+		["d3027pnilu3027cd17vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN18",
@@ -138,7 +146,7 @@ local diff = {
 			},
 			["name"] = "Wing Sweep Bomb Mode",
 		},
-		["d3044pnilunilcd18vd0vpnilvunil"] = {
+		["d3044pnilunilcd19vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN47",
@@ -146,7 +154,7 @@ local diff = {
 			},
 			["name"] = "Flaps Down",
 		},
-		["d3044pnilunilcd18vd1vpnilvunil"] = {
+		["d3044pnilunilcd19vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN46",
@@ -154,18 +162,18 @@ local diff = {
 			},
 			["name"] = "Flaps Up",
 		},
-		["d3056pnilu3056cd34vd1vpnilvu0"] = {
+		["d3056pnilu3056cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN42",
+					["key"] = "JOY_BTN40",
 				},
 			},
 			["name"] = "Master Caution Reset",
 		},
-		["d3058pnilu3058cd22vd1vpnilvu0"] = {
+		["d3058pnilu3058cd23vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN41",
+					["key"] = "JOY_BTN38",
 				},
 			},
 			["name"] = "MASTER RESET",
@@ -186,7 +194,7 @@ local diff = {
 			},
 			["name"] = "PLM button",
 		},
-		["d3128pnilu3128cd19vd1vpnilvu0"] = {
+		["d3128pnilu3128cd20vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN61",
@@ -194,7 +202,7 @@ local diff = {
 			},
 			["name"] = "Left Engine Cutoff",
 		},
-		["d3129pnilu3129cd19vd1vpnilvu0"] = {
+		["d3129pnilu3129cd20vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN63",
@@ -283,7 +291,7 @@ local diff = {
 			},
 			["name"] = "Toggle Menu",
 		},
-		["d3653pnilunilcd11vd0vpnilvunil"] = {
+		["d3653pnilunilcd12vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
@@ -291,7 +299,7 @@ local diff = {
 			},
 			["name"] = "Exterior Lights Master Switch OFF",
 		},
-		["d3653pnilunilcd11vd1vpnilvunil"] = {
+		["d3653pnilunilcd12vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
@@ -299,21 +307,13 @@ local diff = {
 			},
 			["name"] = "Exterior Lights Master Switch ON",
 		},
-		["d3714pnilunilcd17vd1vpnilvunil"] = {
+		["d3718pnilu3718cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN40",
+					["key"] = "JOY_BTN26",
 				},
 			},
-			["name"] = "Hook Toggle",
-		},
-		["d3715pnilunilcd17vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-				},
-			},
-			["name"] = "Speed brake toggle",
+			["name"] = "Mic Button ICS - SRS Only / No Menu",
 		},
 		["d3719pnilu3719cd2vd1vpnilvu0"] = {
 			["added"] = {
@@ -331,7 +331,23 @@ local diff = {
 			},
 			["name"] = "Mic Button UHF2 (ARC-182) - SRS Only / No Menu",
 		},
-		["dnilp3020u3020cd17vdnilvp-1vu0"] = {
+		["dnilp2021u2021cdnilvdnilvp-1vu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "Trim Rudder Left",
+		},
+		["dnilp2021u2021cdnilvdnilvp1vu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "Trim Rudder Right",
+		},
+		["dnilp3020u3020cd18vdnilvp-1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN28",
@@ -339,7 +355,7 @@ local diff = {
 			},
 			["name"] = "Speed brake retract",
 		},
-		["dnilp3020u3020cd17vdnilvp1vu0"] = {
+		["dnilp3020u3020cd18vdnilvp1vu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN30",

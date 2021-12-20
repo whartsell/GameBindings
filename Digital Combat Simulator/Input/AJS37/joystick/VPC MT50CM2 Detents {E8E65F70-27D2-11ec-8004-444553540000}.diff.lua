@@ -207,7 +207,7 @@ local diff = {
 					["key"] = "JOY_BTN8",
 				},
 			},
-			["name"] = "Autothrottle disconnect / IR-missile fast select",
+			["name"] = "IR-missile fast select",
 		},
 		["d3314pnilunilcd2vd1vpnilvunil"] = {
 			["added"] = {
@@ -223,7 +223,7 @@ local diff = {
 					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Radar Range Increase",
+			["name"] = "Radar  Range Increase",
 		},
 		["d3324pnilunilcd5vd1vpnilvunil"] = {
 			["added"] = {
@@ -231,7 +231,7 @@ local diff = {
 					["key"] = "JOY_BTN15",
 				},
 			},
-			["name"] = "Radar Range Decrease",
+			["name"] = "Radar  Range Decrease",
 		},
 		["d3402pnilunilcd22vd1vpnilvunil"] = {
 			["added"] = {

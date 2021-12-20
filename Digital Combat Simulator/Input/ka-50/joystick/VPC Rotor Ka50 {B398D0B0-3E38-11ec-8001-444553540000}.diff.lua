@@ -1,5 +1,21 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["name"] = "Flight Control Cyclic Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Flight Control Cyclic Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
 		["a2003cdnil"] = {
 			["name"] = "Flight Control Rudder",
 			["removed"] = {
@@ -8,15 +24,25 @@ local diff = {
 				},
 			},
 		},
-		["a2087cdnil"] = {
-			["name"] = "Flight Control Collective",
-			["removed"] = {
+		["a2004cdnil"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_Z",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
+					["key"] = "JOY_SLIDER1",
 				},
 			},
+			["name"] = "Throttle",
 		},
-		["a2101cdnil"] = {
+		["a2087cdnil"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -29,59 +55,35 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+			["name"] = "Flight Control Collective",
+			["removed"] = {
+				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
-			["name"] = "Wheel Brake",
 		},
 	},
 	["keyDiffs"] = {
-		["d113pnilunilcdnilvdnilvpnilvunil"] = {
+		["d103pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN19",
 				},
 			},
-			["name"] = "Gun Select",
+			["name"] = "Shkval Narrow View 23x",
 		},
-		["d1589pnilu1590cdnilvdnilvpnilvunil"] = {
+		["d104pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN18",
 				},
 			},
-			["name"] = "SPU-9 PTT",
-		},
-		["d3001pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
-			},
-			["name"] = "Kneeboard Next Page",
-		},
-		["d3002pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Kneeboard Previous Page",
-		},
-		["d3003pnilunilcd100vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "Kneeboard current position mark point",
+			["name"] = "Shkval Wide View 7x",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
 			["name"] = "Release weapons",
 			["removed"] = {
 				[1] = {
@@ -89,7 +91,44 @@ local diff = {
 				},
 			},
 		},
+		["d412pnilu414cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "TV Target frame Increase size",
+		},
+		["d413pnilu414cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "TV Target frame Decrease size",
+		},
+		["d506pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "Engage/Disengage Route Mode",
+		},
+		["d507pnilu508cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN23",
+				},
+			},
+			["name"] = "Engage Descent Mode",
+		},
 		["d509pnilu510cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+			},
 			["name"] = "Lock target",
 			["removed"] = {
 				[1] = {
@@ -97,12 +136,39 @@ local diff = {
 				},
 			},
 		},
-		["d537pnilu385cdnilvdnilvpnilvunil"] = {
+		["d511pnilu380cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
+					["key"] = "JOY_BTN9",
 				},
 			},
+			["name"] = "Spot light left",
+		},
+		["d512pnilu380cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "Spot light right",
+		},
+		["d513pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Spot light up",
+		},
+		["d514pnilu515cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "Spot light down",
+		},
+		["d537pnilu385cdnilvdnilvpnilvunil"] = {
 			["name"] = "Hover On/Off",
 			["removed"] = {
 				[1] = {
@@ -113,28 +179,39 @@ local diff = {
 				},
 			},
 		},
-		["d538pnilu297cdnilvdnilvpnilvunil"] = {
+		["d824pnilu381cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Autopilot Emergency Off",
+			["name"] = "Weapon selection inward stations",
 		},
-		["d833pnilu834cdnilvdnilvpnilvunil"] = {
+		["d825pnilu381cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Cockpit gauges illumination (stick)",
+			["name"] = "Weapon selection outward stations",
+		},
+		["d826pnilu382cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Weapon selection all stations",
+		},
+		["d827pnilu382cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Weapon selection A-A mode",
 		},
 		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
 			["name"] = "Gun fire",
 			["removed"] = {
 				[1] = {
@@ -142,20 +219,31 @@ local diff = {
 				},
 			},
 		},
-		["d92pnilunilcdnilvdnilvpnilvunil"] = {
+		["d853pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN11",
+					["key"] = "JOY_BTN4",
 				},
 			},
-			["name"] = "KU-31 Shkval center",
+			["name"] = "Readjust Free Turbine RPM to Nominal",
+		},
+		["d854pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Readjust Free Turbine RPM to Low",
+		},
+		["d856pnilu857cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Collective brake - Assign altitude lever",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN21",
-				},
-			},
 			["name"] = "Trimmer",
 			["removed"] = {
 				[1] = {
@@ -235,20 +323,7 @@ local diff = {
 				},
 			},
 		},
-		["dnilp439u440cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Uncage SHKVAL, designate target",
-		},
 		["dnilp88u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
-				},
-			},
 			["name"] = "KU-31 Shkval slew left",
 			["removed"] = {
 				[1] = {
@@ -260,11 +335,6 @@ local diff = {
 			},
 		},
 		["dnilp89u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
 			["name"] = "KU-31 Shkval slew right",
 			["removed"] = {
 				[1] = {
@@ -276,11 +346,6 @@ local diff = {
 			},
 		},
 		["dnilp90u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
 			["name"] = "KU-31 Shkval slew up",
 			["removed"] = {
 				[1] = {
@@ -292,11 +357,6 @@ local diff = {
 			},
 		},
 		["dnilp91u235cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
 			["name"] = "KU-31 Shkval slew down",
 			["removed"] = {
 				[1] = {

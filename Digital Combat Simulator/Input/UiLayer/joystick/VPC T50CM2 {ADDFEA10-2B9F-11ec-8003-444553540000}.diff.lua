@@ -3,7 +3,7 @@ local diff = {
 		["d2604pnilu2604cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "toggle VR Zoom",
@@ -11,7 +11,7 @@ local diff = {
 		["d2605pnilu2605cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "toggle VR Spyglass Zoom",

@@ -219,7 +219,7 @@ local diff = {
 					["key"] = "Up",
 				},
 			},
-			["name"] = "Night Vision Goggles Gain Up",
+			["name"] = "Night Vision Goggles Gain - INC",
 		},
 		["dnilp841unilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -227,7 +227,7 @@ local diff = {
 					["key"] = "Down",
 				},
 			},
-			["name"] = "Night Vision Goggles Gain Down",
+			["name"] = "Night Vision Goggles Gain - DEC",
 		},
 	},
 }
