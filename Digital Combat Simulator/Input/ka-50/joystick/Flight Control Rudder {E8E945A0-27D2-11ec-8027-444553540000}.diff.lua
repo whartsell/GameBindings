@@ -62,7 +62,7 @@ local diff = {
 			},
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["name"] = "Trimmer",
+			["name"] = "Trim Control",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",

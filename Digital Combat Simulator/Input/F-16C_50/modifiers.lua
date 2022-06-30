@@ -1,7 +1,7 @@
 local modifiers = {
-	["JOY_BTN17"] = {
-		["device"] = "VPC VFX {747FE7F0-6120-11ec-8001-444553540000}",
-		["key"] = "JOY_BTN17",
+	["JOY_BTN57"] = {
+		["device"] = "FSSB R3L MJF SGRH {FE5FDDA0-2BA0-11ec-8008-444553540000}",
+		["key"] = "JOY_BTN57",
 		["switch"] = false,
 	},
 	["LAlt"] = {

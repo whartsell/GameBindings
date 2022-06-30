@@ -50,7 +50,7 @@ local diff = {
 					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "SPU-9 PTT",
+			["name"] = "SPU-9 PTT (call radio menu)",
 		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -111,20 +111,12 @@ local diff = {
 					["key"] = "JOY_BTN21",
 				},
 			},
-			["name"] = "Trimmer",
+			["name"] = "Trim Control",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
-		},
-		["d97pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN23",
-				},
-			},
-			["name"] = "Trimmer reset",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

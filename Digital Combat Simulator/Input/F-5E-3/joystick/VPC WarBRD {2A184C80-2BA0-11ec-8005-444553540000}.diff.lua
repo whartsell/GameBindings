@@ -58,6 +58,17 @@ local diff = {
 			},
 			["name"] = "Gun Trigger - FIRST DETENT",
 		},
+		["d3020pnilu3020cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN19",
+				},
+				[2] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Aileron Limiter (Hold to turn off)",
+		},
 		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

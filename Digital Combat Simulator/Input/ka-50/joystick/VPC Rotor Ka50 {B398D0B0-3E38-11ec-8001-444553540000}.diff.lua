@@ -241,10 +241,10 @@ local diff = {
 					["key"] = "JOY_BTN20",
 				},
 			},
-			["name"] = "Collective brake - Assign altitude lever",
+			["name"] = "Collective Clutch Lock/Release Button",
 		},
 		["d957pnilu958cdnilvdnilvpnilvunil"] = {
-			["name"] = "Trimmer",
+			["name"] = "Trim Control",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",

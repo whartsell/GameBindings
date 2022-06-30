@@ -192,6 +192,14 @@ local diff = {
 			},
 			["name"] = "Flare-Chaff Button",
 		},
+		["d3007pnilu3007cd18vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "AN/ASG-31 Sight Cage Switch",
+		},
 		["d3007pnilu3007cd4vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -239,6 +247,14 @@ local diff = {
 				},
 			},
 			["name"] = "AN/APQ-159 Radar Range Selector - CW/Increase",
+		},
+		["d3014pnilu3014cd15vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
+				},
+			},
+			["name"] = "Missile Uncage Switch",
 		},
 		["d3019pnilunilcd2vd0vpnilvunil"] = {
 			["added"] = {

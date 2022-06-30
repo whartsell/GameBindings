@@ -18,101 +18,149 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d3080pnilu3080cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN7",
-				},
-			},
-			["name"] = "Sensor Select FWD: INS, IRMV/EOMV",
-		},
-		["d3081pnilu3081cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Sensor Select AFT: DMT: LST/TV",
-		},
-		["d3082pnilu3082cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN10",
-				},
-			},
-			["name"] = "Sensor Select LEFT: MAP Center/Decenter",
-		},
-		["d3083pnilu3083cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "Sensor Select RIGHT: FLIR BH/WH",
-		},
-		["d3084pnilu3084cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "Sensor Select DOWN: HUD Scene Reject/TGP",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Bomb Pickle: Release Bombs/Launch Rockets, Mavericks",
-		},
-		["d562pnilu606cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "AG Target Undesignate / NWS / FOV Toggle",
-		},
-		["d563pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "A/A Mode FWD: Sidewinder (Boresight)",
-		},
-		["d564pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "A/A Mode AFT: Sidewinder (SEAM)",
-		},
-		["d565pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN19",
-				},
-			},
-			["name"] = "A/A Mode DOWN: Gun",
-		},
-		["d568pnilu570cdnilvdnilvpnilvunil"] = {
+		["d3001pnilu3001cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "WP Increment",
+			["name"] = "NWS A/R DISC MSL STEP Button",
 		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+		["d3006pnilu3006cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN11",
+				},
+			},
+			["name"] = "Display Management Switch - Up",
+		},
+		["d3007pnilu3007cd16vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Display Management Switch - Down",
+		},
+		["d3008pnilu3008cd16vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "Display Management Switch - Left",
+		},
+		["d3009pnilu3009cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Display Management Switch - Right",
+		},
+		["d3010pnilu3010cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN7",
+				},
+			},
+			["name"] = "Target Management Switch - Up",
+		},
+		["d3011pnilu3011cd16vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN9",
+				},
+			},
+			["name"] = "Target Management Switch - Down",
+		},
+		["d3012pnilu3012cd16vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Target Management Switch - Left",
+		},
+		["d3013pnilu3013cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Target Management Switch - Right",
+		},
+		["d3014pnilu3014cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "Countermeasures Management Switch - Fwd",
+		},
+		["d3015pnilu3015cd16vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "Countermeasures Management Switch - Aft",
+		},
+		["d3016pnilu3016cd16vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN18",
+				},
+			},
+			["name"] = "Countermeasures Management Switch - Left",
+		},
+		["d3017pnilu3017cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Countermeasures Management Switch - Right",
+		},
+		["d3018pnilu3018cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Expand/FOV Button - Depress",
+		},
+		["d3019pnilu3019cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "Paddle Switch - Depress",
+		},
+		["d3020pnilu3020cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "CAMERA/GUN Trigger - FIRST DETENT",
+		},
+		["d3021pnilu3021cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN6",
 				},
 			},
-			["name"] = "Trigger: Fire Gun/Launch Sidewinder, Sidearm",
+			["name"] = "CAMERA/GUN Trigger - SECOND DETENT",
+		},
+		["d3022pnilu3022cd16vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "WPN REL Button - Depress",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -184,7 +232,7 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_L",
 				},
 			},
-			["name"] = "Trim Bank LEFT",
+			["name"] = "TRIM Button - LEFT WING DOWN",
 		},
 		["dnilp94u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -192,7 +240,7 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_R",
 				},
 			},
-			["name"] = "Trim Bank RIGHT",
+			["name"] = "TRIM Button - RIGHT WING DOWN",
 		},
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -200,7 +248,7 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_U",
 				},
 			},
-			["name"] = "Trim Pitch DOWN",
+			["name"] = "TRIM Button - NOSE DOWN",
 		},
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -208,7 +256,7 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
-			["name"] = "Trim Pitch UP",
+			["name"] = "TRIM Button - NOSE UP",
 		},
 	},
 }

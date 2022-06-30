@@ -30,24 +30,14 @@ local diff = {
 					["filter"] = {
 						["curvature"] = {
 							[1] = 0,
-							[2] = 0.12,
-							[3] = 0.24,
-							[4] = 0.36,
-							[5] = 0.48,
-							[6] = 0.6,
-							[7] = 0.72,
-							[8] = 0.84,
-							[9] = 0.95,
-							[10] = 0.98,
-							[11] = 1,
 						},
-						["deadzone"] = 0.08,
-						["invert"] = true,
-						["saturationX"] = 1,
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 0.82,
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
-					["key"] = "JOY_RX",
+					["key"] = "JOY_RY",
 				},
 			},
 			["name"] = "Thrust",
@@ -57,177 +47,181 @@ local diff = {
 				},
 			},
 		},
-		["a3213cd41"] = {
+		["a3028cd16"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0,
+						["deadzone"] = 0.04,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
-						["slider"] = true,
+						["slider"] = false,
 					},
 					["key"] = "JOY_Z",
 				},
 			},
-			["name"] = "TDC Range / Pipper Span control",
+			["name"] = "MAN RNG Knob",
 		},
-		["a73cdnil"] = {
-			["name"] = "Wheel Brakes Lever",
-			["removed"] = {
+		["a3032cd16"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_SLIDER2",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0.02,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RX",
 				},
 			},
+			["name"] = "ANT ELEV Knob",
+		},
+		["a3046cd16"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.08,
+						},
+						["deadzone"] = 0.05,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_Y",
+				},
+			},
+			["name"] = "RDR CURSOR Switch - Y axis",
+		},
+		["a3047cd16"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.08,
+						},
+						["deadzone"] = 0.05,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "RDR CURSOR Switch - X axis",
 		},
 	},
 	["keyDiffs"] = {
-		["d145pnilunilcdnilvdnilvpnilvunil"] = {
+		["d1731pnilu1731cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN47",
+					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "Flaps Down",
+			["name"] = "Transmit Switch - UHF (VOIP)",
 		},
-		["d146pnilunilcdnilvdnilvpnilvunil"] = {
+		["d1732pnilu1732cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN46",
+					["key"] = "JOY_BTN2",
 				},
 			},
-			["name"] = "Flaps Up",
+			["name"] = "Transmit Switch - VHF (VOIP)",
 		},
-		["d3116pnilunilcd12vd1vpnilvunil"] = {
+		["d3024pnilu3024cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN27",
+					["key"] = "JOY_BTN2",
+					["reformers"] = {
+						[1] = "JOY_BTN57",
+					},
 				},
 			},
-			["name"] = "Airbrakes On/Off",
+			["name"] = "Transmit Switch - VHF (call radio menu)",
 		},
-		["d3120pnilunilcd14vd0vpnilvunil"] = {
+		["d3025pnilu3025cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN68",
+					["key"] = "JOY_BTN3",
+					["reformers"] = {
+						[1] = "JOY_BTN57",
+					},
 				},
 			},
-			["name"] = "Gears Handle Lock engaged",
+			["name"] = "Transmit Switch - UHF (call radio menu)",
 		},
-		["d3120pnilunilcd14vd1vpnilvunil"] = {
+		["d3026pnilu3026cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN35",
+					["key"] = "JOY_BTN5",
 				},
 			},
-			["name"] = "Gears Handle Lock released",
+			["name"] = "Transmit Switch - IFF OUT",
 		},
-		["d3121pnilunilcd14vd-1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "Gears Down",
-		},
-		["d3121pnilunilcd14vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN70",
-				},
-			},
-			["name"] = "Gears Handle Neutral",
-		},
-		["d3121pnilunilcd14vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "Gears Up",
-		},
-		["d3128pnilu3128cd16vd1vpnilvu0"] = {
+		["d3027pnilu3027cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN4",
 				},
 			},
-			["name"] = "Drag Chute - Activate",
+			["name"] = "Transmit Switch - IFF IN",
 		},
-		["d3130pnilu3130cd16vd1vpnilvu0"] = {
+		["d3029pnilu3029cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN1",
+					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Drag Chute - Disconnect",
+			["name"] = "UNCAGE Switch",
 		},
-		["d3185pnilu3185cd42vd1vpnilvu0"] = {
+		["d3030pnilu3030cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN38",
+					["key"] = "JOY_BTN8",
 				},
 			},
-			["name"] = "Gun reload - 1",
+			["name"] = "DOGFIGHT/Missile Override 3-pos Switch: MISSILE OVERRIDE<>CENTER",
 		},
-		["d3186pnilu3186cd42vd1vpnilvu0"] = {
+		["d3030pnilu3030cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN39",
+					["key"] = "JOY_BTN7",
 				},
 			},
-			["name"] = "Gun reload - 2",
+			["name"] = "DOGFIGHT/Missile Override 3-pos Switch: DOGFIGHT<>CENTER",
 		},
-		["d3187pnilu3187cd42vd1vpnilvu0"] = {
+		["d3031pnilu3031cd16vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN40",
+					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Gun reload - 3",
+			["name"] = "SPD BRK Switch - Aft/EXTEND (Momentary)",
 		},
-		["d3191pnilu3191cd42vd1vpnilvu0"] = {
-			["name"] = "Fire Gun",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d3238pnilu3238cd3vd1vpnilvu0"] = {
+		["d3031pnilu3031cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN33",
+					["key"] = "JOY_BTN11",
 				},
 			},
-			["name"] = "Throttle Start/Stop Position Toggle",
+			["name"] = "SPD BRK Switch: Fwd/RETRACT <>OFF",
 		},
-		["d3424pnilunilcd6vd0vpnilvunil"] = {
+		["d3039pnilu3039cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN65",
+					["key"] = "JOY_BTN13",
 				},
 			},
-			["name"] = "Emergency Afterburner Off",
-		},
-		["d3424pnilunilcd6vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN36",
-				},
-			},
-			["name"] = "Emergency Afterburner On",
-		},
-		["d357pnilu358cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "Drop Countermeasures (ASO and SPS-141)",
+			["name"] = "ENABLE Switch - Depress",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -290,14 +284,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
 				},
 			},
 		},

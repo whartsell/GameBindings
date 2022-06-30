@@ -1,41 +1,5 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Pitch",
-		},
-		["a2002cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "Roll",
-		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
@@ -45,7 +9,7 @@ local diff = {
 			},
 		},
 		["a2004cdnil"] = {
-			["name"] = "Throttle",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -54,71 +18,90 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d10016pnilu10017cdnilvdnilvpnilvunil"] = {
+		["d1163pnilu1163cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "INT Button On Stick (call radio menu)",
+		},
+		["d1672pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN30",
+				},
+			},
+			["name"] = "Request Aircraft Control",
+		},
+		["d3022pnilunilcd3vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+				[2] = {
+					["key"] = "JOY_BTN36",
+				},
+			},
+			["name"] = "Weapon Fire Button Safety",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
-			["name"] = "Gun-Rocket Trigger",
+			["name"] = "Weapon Fire Button",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN1",
 				},
 			},
 		},
-		["d10018pnilu10019cdnilvdnilvpnilvunil"] = {
+		["d93pnilu215cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "Aileron Trimmer Switch, LEFT",
+		},
+		["d94pnilu215cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "Aileron Trimmer Switch, RIGHT",
+		},
+		["d95pnilu215cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Bomb Release Button",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
+			["name"] = "Elevator Trimmer Switch, PUSH(DESCEND)",
 		},
-		["d10123pnilunilcdnilvdnilvpnilvunil"] = {
+		["d96pnilu215cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "Autopilot Override (AFCS Emergency Disconnect)",
+			["name"] = "Elevator Trimmer Switch, PULL(CLIMB)",
 		},
-		["dnilp10113u10119cdnilvdnilvpnilvunil"] = {
+		["d97pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN13",
 				},
 			},
-			["name"] = "Trim Switch - NOSE UP",
-		},
-		["dnilp10114u10119cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Trim Switch - NOSE DOWN",
-		},
-		["dnilp10115u10119cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN12",
-				},
-			},
-			["name"] = "Trim Switch - LEFT WING DOWN",
-		},
-		["dnilp10116u10119cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN8",
-				},
-			},
-			["name"] = "Trim Switch - RIGHT WING DOWN",
+			["name"] = "Trimmer - Reset Position",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",

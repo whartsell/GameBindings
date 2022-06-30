@@ -269,6 +269,12 @@ local diff = {
 						[1] = "JOY_BTN18",
 					},
 				},
+				[2] = {
+					["key"] = "JOY_BTN24",
+					["reformers"] = {
+						[1] = "JOY_BTN17",
+					},
+				},
 			},
 			["name"] = "Mic Button UHF1 (ARC-159)",
 		},
@@ -277,7 +283,7 @@ local diff = {
 				[1] = {
 					["key"] = "JOY_BTN25",
 					["reformers"] = {
-						[1] = "JOY_BTN18",
+						[1] = "JOY_BTN17",
 					},
 				},
 			},
@@ -313,7 +319,7 @@ local diff = {
 					["key"] = "JOY_BTN26",
 				},
 			},
-			["name"] = "Mic Button ICS - SRS Only / No Menu",
+			["name"] = "Mic Button ICS - SRS or VoIP Only / No Menu",
 		},
 		["d3719pnilu3719cd2vd1vpnilvu0"] = {
 			["added"] = {
@@ -321,7 +327,7 @@ local diff = {
 					["key"] = "JOY_BTN24",
 				},
 			},
-			["name"] = "Mic Button UHF1 (ARC-159) - SRS Only / No Menu",
+			["name"] = "Mic Button UHF1 (ARC-159) - SRS or VoIP Only / No Menu",
 		},
 		["d3720pnilu3720cd2vd1vpnilvu0"] = {
 			["added"] = {
@@ -329,7 +335,7 @@ local diff = {
 					["key"] = "JOY_BTN25",
 				},
 			},
-			["name"] = "Mic Button UHF2 (ARC-182) - SRS Only / No Menu",
+			["name"] = "Mic Button UHF2 (ARC-182) - SRS or VoIP Only / No Menu",
 		},
 		["dnilp2021u2021cdnilvdnilvp-1vu0"] = {
 			["added"] = {

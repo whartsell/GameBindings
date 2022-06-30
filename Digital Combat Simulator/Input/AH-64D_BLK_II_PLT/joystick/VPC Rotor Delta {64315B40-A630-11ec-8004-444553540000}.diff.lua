@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Pitch",
+			["name"] = "Cyclic Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,7 +9,7 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Roll",
+			["name"] = "Cyclic Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
@@ -30,34 +30,19 @@ local diff = {
 					["filter"] = {
 						["curvature"] = {
 							[1] = 0,
-							[2] = 0.12,
-							[3] = 0.24,
-							[4] = 0.36,
-							[5] = 0.48,
-							[6] = 0.6,
-							[7] = 0.72,
-							[8] = 0.84,
-							[9] = 0.95,
-							[10] = 0.98,
-							[11] = 1,
 						},
-						["deadzone"] = 0.08,
+						["deadzone"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
-					["key"] = "JOY_RX",
+					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Thrust",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Z",
-				},
-			},
+			["name"] = "Power Levers (Both)",
 		},
-		["a3213cd41"] = {
+		["a2087cdnil"] = {
 			["added"] = {
 				[1] = {
 					["filter"] = {
@@ -70,164 +55,181 @@ local diff = {
 						["saturationY"] = 1,
 						["slider"] = true,
 					},
+					["key"] = "JOY_X",
+				},
+			},
+			["name"] = "Collective",
+			["removed"] = {
+				[1] = {
 					["key"] = "JOY_Z",
 				},
 			},
-			["name"] = "TDC Range / Pipper Span control",
 		},
-		["a73cdnil"] = {
-			["name"] = "Wheel Brakes Lever",
-			["removed"] = {
+		["a3042cd25"] = {
+			["added"] = {
 				[1] = {
-					["key"] = "JOY_SLIDER2",
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.08,
+						},
+						["deadzone"] = 0.02,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RX",
 				},
 			},
+			["name"] = "HOCAS Cursor Controller - X axis",
+		},
+		["a3043cd25"] = {
+			["added"] = {
+				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.08,
+						},
+						["deadzone"] = 0.02,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "HOCAS Cursor Controller - Y axis",
 		},
 	},
 	["keyDiffs"] = {
-		["d145pnilunilcdnilvdnilvpnilvunil"] = {
+		["d3024pnilu3024cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN47",
+					["key"] = "JOY_BTN19",
 				},
 			},
-			["name"] = "Flaps Down",
+			["name"] = "FCR Scan Size Switch - Z/Up",
 		},
-		["d146pnilunilcdnilvdnilvpnilvunil"] = {
+		["d3025pnilu3025cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN46",
+					["key"] = "JOY_BTN21",
 				},
 			},
-			["name"] = "Flaps Up",
+			["name"] = "FCR Scan Size Switch - M/Down",
 		},
-		["d3116pnilunilcd12vd1vpnilvunil"] = {
+		["d3026pnilu3026cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN27",
+					["key"] = "JOY_BTN22",
 				},
 			},
-			["name"] = "Airbrakes On/Off",
+			["name"] = "FCR Scan Size Switch - N/Left",
 		},
-		["d3120pnilunilcd14vd0vpnilvunil"] = {
+		["d3027pnilu3027cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN68",
+					["key"] = "JOY_BTN20",
 				},
 			},
-			["name"] = "Gears Handle Lock engaged",
+			["name"] = "FCR Scan Size Switch - W/Right",
 		},
-		["d3120pnilunilcd14vd1vpnilvunil"] = {
+		["d3028pnilu3028cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN35",
+					["key"] = "JOY_BTN9",
 				},
 			},
-			["name"] = "Gears Handle Lock released",
+			["name"] = "Sight Select Switch - HMD/Up",
 		},
-		["d3121pnilunilcd14vd-1vpnilvunil"] = {
+		["d3029pnilu3029cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN69",
+					["key"] = "JOY_BTN11",
 				},
 			},
-			["name"] = "Gears Down",
+			["name"] = "Sight Select Switch - LINK/Down",
 		},
-		["d3121pnilunilcd14vd0vpnilvunil"] = {
+		["d3030pnilu3030cd25vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN70",
+					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Gears Handle Neutral",
+			["name"] = "Sight Select Switch - FCR/Left",
 		},
-		["d3121pnilunilcd14vd1vpnilvunil"] = {
+		["d3031pnilu3031cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN71",
+					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Gears Up",
+			["name"] = "Sight Select Switch - TADS/Right",
 		},
-		["d3128pnilu3128cd16vd1vpnilvu0"] = {
+		["d3032pnilu3032cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN14",
+				},
+			},
+			["name"] = "FCR Mode Switch - GTM/Up",
+		},
+		["d3033pnilu3033cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "FCR Mode Switch - ATM/Down",
+		},
+		["d3034pnilu3034cd25vd-1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN17",
+				},
+			},
+			["name"] = "FCR Mode Switch - TPM/Left",
+		},
+		["d3035pnilu3035cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN15",
+				},
+			},
+			["name"] = "FCR Mode Switch - RMAP/Right",
+		},
+		["d3040pnilu3040cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Cursor Enter - Depress",
+		},
+		["d3044pnilu3044cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN23",
+				},
+			},
+			["name"] = "Cursor Display Select Button - Depress",
+		},
+		["d3054pnilu3054cd25vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "Boresight/Polarity Switch - PLRT",
+		},
+		["d3066pnilu3066cd25vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN4",
 				},
 			},
-			["name"] = "Drag Chute - Activate",
-		},
-		["d3130pnilu3130cd16vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "Drag Chute - Disconnect",
-		},
-		["d3185pnilu3185cd42vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN38",
-				},
-			},
-			["name"] = "Gun reload - 1",
-		},
-		["d3186pnilu3186cd42vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN39",
-				},
-			},
-			["name"] = "Gun reload - 2",
-		},
-		["d3187pnilu3187cd42vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN40",
-				},
-			},
-			["name"] = "Gun reload - 3",
-		},
-		["d3191pnilu3191cd42vd1vpnilvu0"] = {
-			["name"] = "Fire Gun",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d3238pnilu3238cd3vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN33",
-				},
-			},
-			["name"] = "Throttle Start/Stop Position Toggle",
-		},
-		["d3424pnilunilcd6vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN65",
-				},
-			},
-			["name"] = "Emergency Afterburner Off",
-		},
-		["d3424pnilunilcd6vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN36",
-				},
-			},
-			["name"] = "Emergency Afterburner On",
-		},
-		["d357pnilu358cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN32",
-				},
-			},
-			["name"] = "Drop Countermeasures (ASO and SPS-141)",
+			["name"] = "Tail Wheel Lock/Unlock Button - Depress",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -290,14 +292,6 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-		},
-		["dnilp36unilcdnilvdnilvpnilvunil"] = {
-			["name"] = "View Center",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
 				},
 			},
 		},

@@ -16,103 +16,108 @@ local diff = {
 				},
 			},
 		},
+		["a73cdnil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["name"] = "Wheel Brakes Lever",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_SLIDER2",
+				},
+			},
+		},
 	},
 	["keyDiffs"] = {
-		["d3080pnilu3080cd12vd1vpnilvu0"] = {
+		["d3067pnilu3067cd8vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN4",
 				},
 			},
-			["name"] = "Sensor Select FWD: INS, IRMV/EOMV",
+			["name"] = "SAU cancel current mode",
 		},
-		["d3081pnilu3081cd12vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN9",
-				},
-			},
-			["name"] = "Sensor Select AFT: DMT: LST/TV",
-		},
-		["d3082pnilu3082cd12vd1vpnilvu0"] = {
+		["d3068pnilu3068cd8vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Sensor Select LEFT: MAP Center/Decenter",
+			["name"] = "SAU - Recovery",
 		},
-		["d3083pnilu3083cd12vd1vpnilvu0"] = {
+		["d3132pnilu3132cd9vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Sensor Select RIGHT: FLIR BH/WH",
+			["name"] = "Trim Pitch Down",
 		},
-		["d3084pnilu3084cd12vd1vpnilvu0"] = {
+		["d3190pnilu3190cd40vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN16",
+				},
+			},
+			["name"] = "Target Lock On",
+		},
+		["d3191pnilu3191cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN20",
+				},
+			},
+			["name"] = "Fire Gun",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
+		["d3192pnilunilcd42vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "Weapon Release Cover Close",
+		},
+		["d3192pnilunilcd42vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN22",
+				},
+			},
+			["name"] = "Weapon Release Cover Open",
+		},
+		["d3193pnilu3193cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN21",
+				},
+				[2] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Weapon Release",
+		},
+		["d3196pnilu3196cd42vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN26",
+				},
+			},
+			["name"] = "Drop Center Fuel Pod",
+		},
+		["d3240pnilu3240cd9vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Sensor Select DOWN: HUD Scene Reject/TGP",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Bomb Pickle: Release Bombs/Launch Rockets, Mavericks",
-		},
-		["d562pnilu606cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "AG Target Undesignate / NWS / FOV Toggle",
-		},
-		["d563pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "A/A Mode FWD: Sidewinder (Boresight)",
-		},
-		["d564pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "A/A Mode AFT: Sidewinder (SEAM)",
-		},
-		["d565pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN19",
-				},
-			},
-			["name"] = "A/A Mode DOWN: Gun",
-		},
-		["d568pnilu570cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "WP Increment",
-		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN6",
-				},
-			},
-			["name"] = "Trigger: Fire Gun/Launch Sidewinder, Sidearm",
+			["name"] = "Trim Pitch Up",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -178,37 +183,13 @@ local diff = {
 				},
 			},
 		},
-		["dnilp93u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
+		["dnilp36unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "View Center",
+			["removed"] = {
 				[1] = {
-					["key"] = "JOY_BTN_POV1_L",
+					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "Trim Bank LEFT",
-		},
-		["dnilp94u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_R",
-				},
-			},
-			["name"] = "Trim Bank RIGHT",
-		},
-		["dnilp95u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_U",
-				},
-			},
-			["name"] = "Trim Pitch DOWN",
-		},
-		["dnilp96u215cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN_POV1_D",
-				},
-			},
-			["name"] = "Trim Pitch UP",
 		},
 	},
 }

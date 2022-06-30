@@ -40,7 +40,7 @@ local diff = {
 					["key"] = "JOY_RY",
 				},
 			},
-			["name"] = "Throttle",
+			["name"] = "Thrust",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -49,131 +49,144 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
-		["d10002pnilunilcdnilvdnilvpnilvunil"] = {
+		["d1188pnilu1188cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN24",
 				},
 			},
-			["name"] = "Radio Microphone Push to Talk (PTT)",
+			["name"] = "INT Button (call radio menu)",
 		},
-		["d10011pnilu10010cdnilvdnilvpnilvunil"] = {
+		["d1189pnilu1189cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN46",
+					["key"] = "JOY_BTN26",
 				},
 			},
-			["name"] = "Flap Handle - UP else STOP",
+			["name"] = "Radio Button (call radio menu)",
 		},
-		["d10012pnilu10010cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN47",
-				},
-			},
-			["name"] = "Flap Handle - DOWN else STOP",
-		},
-		["d10016pnilu10017cdnilvdnilvpnilvunil"] = {
-			["name"] = "Gun-Rocket Trigger",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-		},
-		["d10018pnilu10019cdnilvdnilvpnilvunil"] = {
-			["name"] = "Bomb Release Button",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
-		["d10043pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN71",
-				},
-			},
-			["name"] = "Arresting Hook Handle - UP",
-		},
-		["d10044pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN69",
-				},
-			},
-			["name"] = "Arresting Hook Handle - DOWN",
-		},
-		["d10093pnilunilcdnilvd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-			["name"] = "Master Exterior Lights Switch - OFF",
-		},
-		["d10093pnilunilcdnilvd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Master Exterior Lights Switch - ON",
-		},
-		["d147pnilunilcdnilvdnilvpnilvunil"] = {
+		["d147pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN30",
 				},
 			},
-			["name"] = "Speedbrake Switch - OPEN",
+			["name"] = "Airbrake Switch - OPEN",
 		},
-		["d148pnilunilcdnilvdnilvpnilvunil"] = {
+		["d148pnilunilcdnilvd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN28",
 				},
 			},
-			["name"] = "Speedbrake Switch - CLOSE",
+			["name"] = "Airbrake Switch - CLOSE",
 		},
-		["d3157pnilunilcd20vd-1vpnilvunil"] = {
+		["d3012pnilunilcd2vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN49",
-				},
-				[2] = {
-					["key"] = "JOY_BTN61",
+					["key"] = "JOY_BTN33",
 				},
 			},
-			["name"] = "Throttle Position Lock - Step Down (OFF/IGN/IDLE)",
+			["name"] = "Throttle Toggle Position - IDLE/STOP",
 		},
-		["d3157pnilunilcd20vd1vpnilvunil"] = {
+		["d3015pnilunilcd37vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN48",
-				},
-				[2] = {
-					["key"] = "JOY_BTN64",
+					["key"] = "JOY_BTN70",
 				},
 			},
-			["name"] = "Throttle Position Lock - Step Up (OFF/IGN/IDLE)",
+			["name"] = "Landing Gear Handle, Neutral",
+		},
+		["d3022pnilunilcd3vd1vpnilvunil"] = {
+			["name"] = "Weapon Fire Button Safety",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
+		["d313pnilu311cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "Throttle - Idle/Stop (hold)",
 		},
 		["d430pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN44",
+					["key"] = "JOY_BTN22",
+					["reformers"] = {
+						[1] = "LAlt",
+					},
 				},
 			},
-			["name"] = "Landing Gear Handle - UP",
+			["name"] = "Landing Gear Handle, Up",
 		},
 		["d431pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN45",
+					["key"] = "JOY_BTN69",
 				},
 			},
-			["name"] = "Landing Gear Handle - DOWN",
+			["name"] = "Landing Gear Handle, Down",
+		},
+		["d517pnilunilcdnilvd-1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+			["name"] = "Spotlight Switch - TAXI",
+		},
+		["d517pnilunilcdnilvd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN3",
+				},
+			},
+			["name"] = "Spotlight Switch - OFF",
+		},
+		["d517pnilunilcdnilvd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+			["name"] = "Spotlight Switch - LANDING",
+		},
+		["d72pnilu72cdnilvd1vpnilvu4"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN38",
+				},
+			},
+			["name"] = "Flaps Flight Position",
+		},
+		["d72pnilu72cdnilvd2vpnilvu5"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN39",
+				},
+			},
+			["name"] = "Flaps TakeOff Position",
+		},
+		["d72pnilu72cdnilvd3vpnilvu6"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN40",
+				},
+			},
+			["name"] = "Flaps Landing Position",
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["name"] = "Weapon Fire Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
