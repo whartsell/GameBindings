@@ -1,7 +1,7 @@
 local modifiers = {
-	["JOY_BTN57"] = {
+	["JOY_BTN20"] = {
 		["device"] = "FSSB R3L MJF SGRH {FE5FDDA0-2BA0-11ec-8008-444553540000}",
-		["key"] = "JOY_BTN57",
+		["key"] = "JOY_BTN20",
 		["switch"] = false,
 	},
 	["LAlt"] = {

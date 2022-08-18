@@ -176,6 +176,22 @@ local diff = {
 			},
 			["name"] = "Right Engine Start Button",
 		},
+		["d3004pnilunilcd11vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN77",
+				},
+			},
+			["name"] = "Landing & Taxi Light Switch - OFF",
+		},
+		["d3004pnilunilcd11vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN37",
+				},
+			},
+			["name"] = "Landing & Taxi Light Switch - ON",
+		},
 		["d3006pnilu3006cd4vd-1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -399,6 +415,22 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_D",
 				},
 			},
+		},
+		["dnilp764unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "HSI Course Set Knob - CCW/Decrease",
+		},
+		["dnilp765unilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "HSI Course Set Knob - CW/Increase",
 		},
 		["dnilp90unilcdnilvdnilvp1vunil"] = {
 			["added"] = {

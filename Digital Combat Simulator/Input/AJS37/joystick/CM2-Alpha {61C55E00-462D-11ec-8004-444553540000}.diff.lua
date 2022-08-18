@@ -1,41 +1,5 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_Y",
-				},
-			},
-			["name"] = "Pitch",
-		},
-		["a2002cdnil"] = {
-			["changed"] = {
-				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
-					["key"] = "JOY_X",
-				},
-			},
-			["name"] = "Roll",
-		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
 			["removed"] = {
@@ -52,12 +16,28 @@ local diff = {
 				},
 			},
 		},
+		["a3321cd2"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RX",
+				},
+			},
+			["name"] = "Rb05 stick yaw",
+		},
+		["a3322cd2"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_RY",
+				},
+			},
+			["name"] = "Rb05 stick pitch",
+		},
 	},
 	["keyDiffs"] = {
 		["d2604pnilu2604cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN21",
 				},
 			},
 			["name"] = "VR tracker Zoom",
@@ -65,77 +45,63 @@ local diff = {
 		["d2605pnilu2605cdnilvd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN18",
+					["key"] = "JOY_BTN22",
 				},
 			},
 			["name"] = "VR tracker Spyglass Zoom",
 		},
-		["d3004pnilu3004cd7vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN4",
-				},
-			},
-			["name"] = "Nosewheel Steering Button",
-		},
-		["d3005pnilu3005cd18vd-1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN15",
-				},
-			},
-			["name"] = "Dogfight/Resume Search Switch - FORWARD (DM)",
-		},
-		["d3005pnilu3005cd18vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN17",
-				},
-			},
-			["name"] = "Dogfight/Resume Search Switch - AFT (DG)",
-		},
-		["d3006pnilu3006cd18vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "Dogfight/Resume Search Switch - CENTER-PRESS (RESUME SEARCH)",
-		},
-		["d3016pnilu3016cd15vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
-			["name"] = "Gun Trigger - FIRST DETENT",
-		},
-		["d3020pnilu3020cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN19",
-				},
-				[2] = {
-					["key"] = "JOY_BTN20",
-				},
-			},
-			["name"] = "Aileron Limiter (Hold to turn off)",
-		},
-		["d350pnilu351cdnilvdnilvpnilvunil"] = {
+		["d3006pnilu3005cd23vd1vpnilvu1"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN3",
 				},
 			},
-			["name"] = "Weapon Release Button",
+			["name"] = "T1 Fix (Two-stage trigger middle position)",
 		},
-		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+		["d3007pnilunilcd23vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "TV Fix",
+		},
+		["d3090pnilu3090cd22vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN6",
+				},
+			},
+			["name"] = "Reference button",
+		},
+		["d3300pnilu3300cd2vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Trigger safety bracket (hold)",
+		},
+		["d3301pnilu3302cd22vd1vpnilvu1"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN12",
+				},
+			},
+			["name"] = "Autopilot SPAK/ATT",
+		},
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN2",
 				},
 			},
-			["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
+			["name"] = "Weapon Release",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
@@ -204,34 +170,34 @@ local diff = {
 		["dnilp93u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN17",
 				},
 			},
-			["name"] = "Aileron Trimmer Switch - LEFT WING DOWN",
+			["name"] = "Trim Hat - ROLL LEFT",
 		},
 		["dnilp94u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN15",
 				},
 			},
-			["name"] = "Aileron Trimmer Switch - RIGHT WING DOWN",
+			["name"] = "Trim Hat - ROLL RIGHT",
 		},
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "Elevator Trimmer Switch - PULL(CLIMB)",
+			["name"] = "Trim Hat - NOSE UP",
 		},
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Elevator Trimmer Switch - PUSH(DESCEND)",
+			["name"] = "Trim Hat - NOSE DOWN",
 		},
 	},
 }

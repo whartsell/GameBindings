@@ -18,6 +18,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d2604pnilu2604cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN63",
+				},
+			},
+			["name"] = "VR tracker Zoom",
+		},
+		["d2605pnilu2605cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN57",
+				},
+			},
+			["name"] = "VR tracker Spyglass Zoom",
+		},
 		["d3001pnilu3001cd16vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {

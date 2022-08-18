@@ -1,40 +1,20 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["changed"] = {
+			["name"] = "Pitch",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_Y",
 				},
 			},
-			["name"] = "Pitch",
 		},
 		["a2002cdnil"] = {
-			["changed"] = {
+			["name"] = "Roll",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["invert"] = true,
-						["saturationX"] = 1,
-						["saturationY"] = 1,
-						["slider"] = false,
-					},
 					["key"] = "JOY_X",
 				},
 			},
-			["name"] = "Roll",
 		},
 		["a2003cdnil"] = {
 			["name"] = "Rudder",
@@ -57,7 +37,7 @@ local diff = {
 		["d3002pnilu3002cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN1",
 				},
 			},
 			["name"] = "Gun Trigger - SECOND DETENT (Press to shoot)",
@@ -65,23 +45,15 @@ local diff = {
 		["d3003pnilu3003cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN3",
 				},
 			},
 			["name"] = "Weapon Release Button",
 		},
-		["d3004pnilu3004cd13vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN5",
-				},
-			},
-			["name"] = "RECCE Event Mark Switch",
-		},
 		["d3005pnilu3005cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN7",
+					["key"] = "JOY_BTN12",
 				},
 			},
 			["name"] = "Sensor Control Switch - Fwd",
@@ -89,7 +61,7 @@ local diff = {
 		["d3006pnilu3006cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN9",
+					["key"] = "JOY_BTN15",
 				},
 			},
 			["name"] = "Sensor Control Switch - Aft",
@@ -97,7 +69,7 @@ local diff = {
 		["d3007pnilu3007cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN10",
+					["key"] = "JOY_BTN13",
 				},
 			},
 			["name"] = "Sensor Control Switch - Left",
@@ -105,7 +77,7 @@ local diff = {
 		["d3008pnilu3008cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN11",
 				},
 			},
 			["name"] = "Sensor Control Switch - Right",
@@ -113,7 +85,7 @@ local diff = {
 		["d3009pnilu3009cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN15",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Select Sparrow",
@@ -121,7 +93,7 @@ local diff = {
 		["d3010pnilu3010cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN17",
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Select Gun",
@@ -129,7 +101,7 @@ local diff = {
 		["d3011pnilu3011cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN16",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "Select AMRAAM",
@@ -137,7 +109,7 @@ local diff = {
 		["d3012pnilu3012cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN19",
+					["key"] = "JOY_BTN5",
 				},
 			},
 			["name"] = "Select Sidewinder",
@@ -145,26 +117,42 @@ local diff = {
 		["d3013pnilu3013cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN3",
+					["key"] = "JOY_BTN4",
 				},
 			},
 			["name"] = "Undesignate/Nose Wheel Steer Switch",
 		},
+		["d3013pnilunilcd5vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN8",
+				},
+			},
+			["name"] = "Arresting Hook Handle - Cycle",
+		},
 		["d3018pnilu3018cd13vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN2",
 				},
 			},
 			["name"] = "Autopilot/Nosewheel Steering Disengage (Paddle) Switch",
 		},
-		["d3045pnilu3045cd13vd1vpnilvu0"] = {
+		["d3018pnilunilcd7vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN14",
+					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "Sensor Control Switch - Depress",
+			["name"] = "Control Stick - HIDE/SHOW (assist)",
+		},
+		["d68pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN10",
+				},
+			},
+			["name"] = "Landing Gear Control Handle - UP/DOWN",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
