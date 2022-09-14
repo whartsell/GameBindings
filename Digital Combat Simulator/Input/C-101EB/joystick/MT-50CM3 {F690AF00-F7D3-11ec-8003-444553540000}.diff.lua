@@ -1,29 +1,5 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2001cdnil"] = {
-			["name"] = "Pitch",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_Y",
-				},
-			},
-		},
-		["a2002cdnil"] = {
-			["name"] = "Roll",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_X",
-				},
-			},
-		},
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
 		["a2004cdnil"] = {
 			["added"] = {
 				[1] = {
@@ -31,7 +7,7 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.08,
+						["deadzone"] = 0.13,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -44,6 +20,30 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
+				},
+			},
+		},
+		["a8034cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a8035cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
+		["a8036cdnil"] = {
+			["name"] = "Rudder",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
 				},
 			},
 		},
@@ -60,18 +60,10 @@ local diff = {
 		["d148pnilu8013cd1vdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN31",
 				},
 			},
 			["name"] = "Air brake - Retract",
-		},
-		["d179pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN16",
-				},
-			},
-			["name"] = "Communication menu",
 		},
 		["d3118pnilunilcd1vd0.5vpnilvunil"] = {
 			["added"] = {
@@ -89,37 +81,37 @@ local diff = {
 			},
 			["name"] = "Throttle Idle Detent - STOP",
 		},
+		["d3202pnilu3202cd1vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN33",
+				},
+			},
+			["name"] = "Landing gear warning mute",
+		},
 		["d3903pnilu3903cd1vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN4",
+					["key"] = "JOY_BTN32",
 				},
 			},
 			["name"] = "Fuel Enrichment",
 		},
-		["d73pnilunilcd1vdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN27",
-				},
-			},
-			["name"] = "Air brake - Extend/Retract",
-		},
-		["d8006pnilunilcd1vdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN47",
-				},
-			},
-			["name"] = "Next Flap Detent",
-		},
-		["d8007pnilunilcd1vdnilvpnilvunil"] = {
+		["d8008pnilu8010cd1vdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN46",
 				},
 			},
-			["name"] = "Prev Flap Detent",
+			["name"] = "HOTAS Flaps Up",
+		},
+		["d8009pnilu8010cd1vdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN47",
+				},
+			},
+			["name"] = "HOTAS Flaps Down",
 		},
 		["d8029pnilunilcd1vdnilvpnilvunil"] = {
 			["added"] = {
@@ -168,6 +160,38 @@ local diff = {
 					["key"] = "JOY_BTN_POV1_UL",
 				},
 			},
+		},
+		["dnilp3029unilcd1vdnilvp-0.005vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "Course Knob Decrease",
+		},
+		["dnilp3029unilcd1vdnilvp0.005vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "Course Knob Increase",
+		},
+		["dnilp3030unilcd1vdnilvp-0.005vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "Heading Knob Decrease",
+		},
+		["dnilp3030unilcd1vdnilvp0.005vunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "Heading Knob Increase",
 		},
 		["dnilp32u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Left slow",

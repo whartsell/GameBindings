@@ -1,13 +1,5 @@
 local diff = {
 	["axisDiffs"] = {
-		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_RZ",
-				},
-			},
-		},
 		["a2004cdnil"] = {
 			["name"] = "Thrust",
 			["removed"] = {
@@ -16,28 +8,36 @@ local diff = {
 				},
 			},
 		},
+		["a8036cdnil"] = {
+			["name"] = "Rudder",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_RZ",
+				},
+			},
+		},
 	},
 	["keyDiffs"] = {
 		["d1672pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN12",
+					["key"] = "JOY_BTN6",
 				},
 			},
 			["name"] = "Request Aircraft Control",
 		},
-		["d3924pnilu3924cd1vd1vpnilvu0"] = {
+		["d3380pnilu3380cd1vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN30",
 				},
 			},
-			["name"] = "Camera Button",
+			["name"] = "Stick Go Around Button",
 		},
 		["d3926pnilu3926cd1vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN5",
+					["key"] = "JOY_BTN7",
 				},
 			},
 			["name"] = "Stores Release Button",
@@ -45,7 +45,7 @@ local diff = {
 		["d3928pnilunilcd1vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN32",
+					["key"] = "JOY_BTN10",
 				},
 			},
 			["name"] = "Stores Release Guard - CLOSE",
@@ -53,7 +53,7 @@ local diff = {
 		["d3928pnilunilcd1vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN34",
+					["key"] = "JOY_BTN8",
 				},
 			},
 			["name"] = "Stores Release Guard - OPEN",
@@ -77,7 +77,7 @@ local diff = {
 		["d3932pnilunilcd1vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN36",
+					["key"] = "JOY_BTN32",
 				},
 			},
 			["name"] = "Trigger Safety Catch - UNLOCK",
@@ -152,7 +152,7 @@ local diff = {
 					["key"] = "JOY_BTN17",
 				},
 			},
-			["name"] = "Trim: Left Wing Down",
+			["name"] = "Trim Hat - ROLL LEFT",
 		},
 		["dnilp94u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -160,7 +160,7 @@ local diff = {
 					["key"] = "JOY_BTN15",
 				},
 			},
-			["name"] = "Trim: Right Wing Down",
+			["name"] = "Trim Hat - ROLL RIGHT",
 		},
 		["dnilp95u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -168,7 +168,7 @@ local diff = {
 					["key"] = "JOY_BTN16",
 				},
 			},
-			["name"] = "Trim: Nose Up",
+			["name"] = "Trim Hat - NOSE UP",
 		},
 		["dnilp96u215cdnilvdnilvpnilvunil"] = {
 			["added"] = {
@@ -176,7 +176,7 @@ local diff = {
 					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Trim: Nose Down",
+			["name"] = "Trim Hat - NOSE DOWN",
 		},
 	},
 }
