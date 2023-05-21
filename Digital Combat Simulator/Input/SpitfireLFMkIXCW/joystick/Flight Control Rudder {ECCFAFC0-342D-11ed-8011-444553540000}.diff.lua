@@ -17,15 +17,25 @@ local diff = {
 			},
 		},
 		["a2003cdnil"] = {
-			["name"] = "Rudder",
-			["removed"] = {
+			["changed"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0.15,
+						},
+						["deadzone"] = 0,
+						["invert"] = false,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = false,
+					},
 					["key"] = "JOY_RZ",
 				},
 			},
+			["name"] = "Rudder",
 		},
-		["a2004cdnil"] = {
-			["name"] = "Thrust",
+		["a3005cd2"] = {
+			["name"] = "Throttle (analog)",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -95,6 +105,14 @@ local diff = {
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_BTN_POV1_D",
+				},
+			},
+		},
+		["dnilp36unilcdnilvdnilvpnilvunil"] = {
+			["name"] = "View Center",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN5",
 				},
 			},
 		},

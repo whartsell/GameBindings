@@ -1,5 +1,27 @@
 local diff = {
 	["keyDiffs"] = {
+		["d1625pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "M",
+					["reformers"] = {
+						[1] = "LShift",
+					},
+				},
+			},
+			["name"] = "Toggle Mirrors",
+		},
+		["d3009pnilunilcd2vd0vpnilvunil"] = {
+			["name"] = "Mixture Control IDLE CUT-OFF",
+			["removed"] = {
+				[1] = {
+					["key"] = "M",
+					["reformers"] = {
+						[1] = "LShift",
+					},
+				},
+			},
+		},
 		["d83pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {

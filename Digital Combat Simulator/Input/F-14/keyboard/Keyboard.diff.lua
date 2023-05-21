@@ -185,6 +185,9 @@ local diff = {
 			["added"] = {
 				[1] = {
 					["key"] = "Space",
+					["reformers"] = {
+						[1] = "LAlt",
+					},
 				},
 			},
 			["name"] = "Eject (3 times)",

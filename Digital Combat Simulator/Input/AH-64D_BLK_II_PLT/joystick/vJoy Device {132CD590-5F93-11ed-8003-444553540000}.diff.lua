@@ -1,7 +1,7 @@
 local diff = {
 	["axisDiffs"] = {
 		["a2001cdnil"] = {
-			["name"] = "Pitch",
+			["name"] = "Cyclic Pitch",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Y",
@@ -9,7 +9,7 @@ local diff = {
 			},
 		},
 		["a2002cdnil"] = {
-			["name"] = "Roll",
+			["name"] = "Cyclic Roll",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_X",
@@ -24,8 +24,8 @@ local diff = {
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Thrust",
+		["a2087cdnil"] = {
+			["name"] = "Collective",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",

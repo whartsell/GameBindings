@@ -1,0 +1,1007 @@
+"Version";1.1;;;;;;;;
+"Firmware";1.04;;;;;;;;
+"Slot number =";1;;;;;;;;
+"Slot name =";Slot NUMBER 1;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;;;;;;;
+Sound;1;0=Off 1=On;;;;;;;
+Light;1;0=Off 1=On;;;;;;;
+Keystrokes;0;0=Off 1=On;;;;;;;
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;;;;;;;
+FSSB R3L Roll Sensibility;22;% from 10=Min to 100=Max;;;;;;;
+NASA Roll Sensibility;130;% from 50=Min to 200=Max;;;;;;;
+FSSB R3L Pitch Sensibility;17;% from 10=Min to 35=Max;;;;;;;
+NASA Pitch Sensibility;65;% from 50=Min to 200=Max;;;;;;;
+Yaw Sensibility;0;% from 0=Off to 100=Full;;;;;;;
+Roll Control Assistance;0;0=Off 1=On;;;;;;;
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;;;;;;;
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;;;;;;;
+Precision Mode;0;0=Off 1=On;;;;;;;
+Precision Mode Sensibility;28;% from 0=Off to 100=Full;;;;;;;
+DX Buttons;1;0=Off 1=On;;;;;;;
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;;;;;;;
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;;;;;;;
+Digital Mouse Speed;0;0=Min 15=Max;;;;;;;
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;;;;;;;
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;;;;;;;
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;;;;;;;
+Shifter Slot Number;0;0 to 7;;;;;;;
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;;;;;;;
+Toggle Slot Number;2;0 to 7;;;;;;;
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;;;;;;;
+Hardware Set Trim Button;7;0=CTrim 1=CDMS 2=CTMS ...;;;;;;;
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;;;;;;;
+Haptic;0;0=Off 1=On;;;;;;;
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"Slot number =";2;;;;;;;;
+"Slot name =";Slot NUMBER 2;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;0;0;0;0;0;0;Empty
+Sound;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Light;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Keystrokes;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;0;0;0;0;0;0;Empty
+FSSB R3L Roll Sensibility;22;% from 10=Min to 100=Max;0;0;0;0;0;0;Empty
+NASA Roll Sensibility;125;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+FSSB R3L Pitch Sensibility;17;% from 10=Min to 35=Max;0;0;0;0;0;0;Empty
+NASA Pitch Sensibility;65;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+Yaw Sensibility;0;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+Roll Control Assistance;0;0=Off 1=On;0;0;0;0;0;0;Empty
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+Precision Mode;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Precision Mode Sensibility;28;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+DX Buttons;1;0=Off 1=On;0;0;0;0;0;0;Empty
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;0;0;0;0;0;0;Empty
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;0;0;0;0;0;0;Empty
+Digital Mouse Speed;0;0=Min 15=Max;0;0;0;0;0;0;Empty
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;0;0;0;0;0;0;Empty
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;0;0;0;0;0;0;Empty
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Shifter Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Toggle Slot Number;2;0 to 7;0;0;0;0;0;0;Empty
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;0;0;0;0;0;0;Empty
+Hardware Set Trim Button;7;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Haptic;0;0=Off 1=On;0;0;0;0;0;0;Empty
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"Slot number =";3;;;;;;;;
+"Slot name =";Slot NUMBER 3;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;0;0;0;0;0;0;Empty
+Sound;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Light;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Keystrokes;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;0;0;0;0;0;0;Empty
+FSSB R3L Roll Sensibility;30;% from 10=Min to 100=Max;0;0;0;0;0;0;Empty
+NASA Roll Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+FSSB R3L Pitch Sensibility;20;% from 10=Min to 35=Max;0;0;0;0;0;0;Empty
+NASA Pitch Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+Yaw Sensibility;0;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+Roll Control Assistance;0;0=Off 1=On;0;0;0;0;0;0;Empty
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+Precision Mode;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Precision Mode Sensibility;50;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+DX Buttons;1;0=Off 1=On;0;0;0;0;0;0;Empty
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;0;0;0;0;0;0;Empty
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;0;0;0;0;0;0;Empty
+Digital Mouse Speed;0;0=Min 15=Max;0;0;0;0;0;0;Empty
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;0;0;0;0;0;0;Empty
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;0;0;0;0;0;0;Empty
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Shifter Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Toggle Slot Number;2;0 to 7;0;0;0;0;0;0;Empty
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;0;0;0;0;0;0;Empty
+Hardware Set Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Haptic;0;0=Off 1=On;0;0;0;0;0;0;Empty
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"Slot number =";4;;;;;;;;
+"Slot name =";Slot NUMBER 4;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;0;0;0;0;0;0;Empty
+Sound;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Light;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Keystrokes;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;0;0;0;0;0;0;Empty
+FSSB R3L Roll Sensibility;32;% from 10=Min to 100=Max;0;0;0;0;0;0;Empty
+NASA Roll Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+FSSB R3L Pitch Sensibility;25;% from 10=Min to 35=Max;0;0;0;0;0;0;Empty
+NASA Pitch Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+Yaw Sensibility;0;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+Roll Control Assistance;0;0=Off 1=On;0;0;0;0;0;0;Empty
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+Precision Mode;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Precision Mode Sensibility;30;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+DX Buttons;1;0=Off 1=On;0;0;0;0;0;0;Empty
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;0;0;0;0;0;0;Empty
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;0;0;0;0;0;0;Empty
+Digital Mouse Speed;0;0=Min 15=Max;0;0;0;0;0;0;Empty
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;0;0;0;0;0;0;Empty
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;0;0;0;0;0;0;Empty
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Shifter Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Toggle Slot Number;2;0 to 7;0;0;0;0;0;0;Empty
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;0;0;0;0;0;0;Empty
+Hardware Set Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Haptic;0;0=Off 1=On;0;0;0;0;0;0;Empty
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"Slot number =";5;;;;;;;;
+"Slot name =";Slot NUMBER 5;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;0;0;0;0;0;0;Empty
+Sound;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Light;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Keystrokes;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;0;0;0;0;0;0;Empty
+FSSB R3L Roll Sensibility;30;% from 10=Min to 100=Max;0;0;0;0;0;0;Empty
+NASA Roll Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+FSSB R3L Pitch Sensibility;20;% from 10=Min to 35=Max;0;0;0;0;0;0;Empty
+NASA Pitch Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+Yaw Sensibility;0;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+Roll Control Assistance;0;0=Off 1=On;0;0;0;0;0;0;Empty
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+Precision Mode;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Precision Mode Sensibility;50;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+DX Buttons;1;0=Off 1=On;0;0;0;0;0;0;Empty
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;0;0;0;0;0;0;Empty
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;0;0;0;0;0;0;Empty
+Digital Mouse Speed;0;0=Min 15=Max;0;0;0;0;0;0;Empty
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;0;0;0;0;0;0;Empty
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;0;0;0;0;0;0;Empty
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Shifter Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Toggle Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;0;0;0;0;0;0;Empty
+Hardware Set Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Haptic;0;0=Off 1=On;0;0;0;0;0;0;Empty
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"Slot number =";6;;;;;;;;
+"Slot name =";Slot NUMBER 6;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;0;0;0;0;0;0;Empty
+Sound;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Light;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Keystrokes;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;0;0;0;0;0;0;Empty
+FSSB R3L Roll Sensibility;30;% from 10=Min to 100=Max;0;0;0;0;0;0;Empty
+NASA Roll Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+FSSB R3L Pitch Sensibility;20;% from 10=Min to 35=Max;0;0;0;0;0;0;Empty
+NASA Pitch Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+Yaw Sensibility;0;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+Roll Control Assistance;0;0=Off 1=On;0;0;0;0;0;0;Empty
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+Precision Mode;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Precision Mode Sensibility;50;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+DX Buttons;1;0=Off 1=On;0;0;0;0;0;0;Empty
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;0;0;0;0;0;0;Empty
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;0;0;0;0;0;0;Empty
+Digital Mouse Speed;0;0=Min 15=Max;0;0;0;0;0;0;Empty
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;0;0;0;0;0;0;Empty
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;0;0;0;0;0;0;Empty
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Shifter Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Toggle Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;0;0;0;0;0;0;Empty
+Hardware Set Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Haptic;0;0=Off 1=On;0;0;0;0;0;0;Empty
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"Slot number =";7;;;;;;;;
+"Slot name =";Slot NUMBER 7;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;0;0;0;0;0;0;Empty
+Sound;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Light;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Keystrokes;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;0;0;0;0;0;0;Empty
+FSSB R3L Roll Sensibility;30;% from 10=Min to 100=Max;0;0;0;0;0;0;Empty
+NASA Roll Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+FSSB R3L Pitch Sensibility;20;% from 10=Min to 35=Max;0;0;0;0;0;0;Empty
+NASA Pitch Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+Yaw Sensibility;0;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+Roll Control Assistance;0;0=Off 1=On;0;0;0;0;0;0;Empty
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+Precision Mode;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Precision Mode Sensibility;50;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+DX Buttons;1;0=Off 1=On;0;0;0;0;0;0;Empty
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;0;0;0;0;0;0;Empty
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;0;0;0;0;0;0;Empty
+Digital Mouse Speed;0;0=Min 15=Max;0;0;0;0;0;0;Empty
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;0;0;0;0;0;0;Empty
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;0;0;0;0;0;0;Empty
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Shifter Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Toggle Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;0;0;0;0;0;0;Empty
+Hardware Set Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Haptic;0;0=Off 1=On;0;0;0;0;0;0;Empty
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"Slot number =";8;;;;;;;;
+"Slot name =";Slot NUMBER 8;;;;;;;;
+"Name";"Value";"Description";;;;;;;
+HAT;0;0=POV 1=TRIM;0;0;0;0;0;0;Empty
+Sound;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Light;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Keystrokes;0;0=Off 1=On;0;0;0;0;0;0;Empty
+Full Scale Control;3;0=1:4 1=2:4 2=3:4 3=4:4;0;0;0;0;0;0;Empty
+FSSB R3L Roll Sensibility;30;% from 10=Min to 100=Max;0;0;0;0;0;0;Empty
+NASA Roll Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+FSSB R3L Pitch Sensibility;20;% from 10=Min to 35=Max;0;0;0;0;0;0;Empty
+NASA Pitch Sensibility;100;% from 50=Min to 200=Max;0;0;0;0;0;0;Empty
+Yaw Sensibility;0;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+Roll Control Assistance;0;0=Off 1=On;0;0;0;0;0;0;Empty
+BFA Roll Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+BFA Pitch Level;1;0=Off 1=Min 2=Med 3=High 4=Full;0;0;0;0;0;0;Empty
+Precision Mode;1;0=Off 1=On;0;0;0;0;0;0;Empty
+Precision Mode Sensibility;50;% from 0=Off to 100=Full;0;0;0;0;0;0;Empty
+DX Buttons;1;0=Off 1=On;0;0;0;0;0;0;Empty
+DX Center Buttons;1;0=Off 1=On 2=Comp 3=Double Click;0;0;0;0;0;0;Empty
+Digital Mouse Switch;0;0=None 1=TMS 2=DMS ...;0;0;0;0;0;0;Empty
+Digital Mouse Speed;0;0=Min 15=Max;0;0;0;0;0;0;Empty
+Digital Mouse Button;0;0=Trigger1 1=WR 2=Pinky ...;0;0;0;0;0;0;Empty
+Digital Mouse SimButton;0;0=Left 1=Right 2=Middle;0;0;0;0;0;0;Empty
+Shifter Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Shifter Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Toggle Button;0;0=None 1=Trigger1 2=WR 3=Pinky ...;0;0;0;0;0;0;Empty
+Toggle Slot Number;0;0 to 7;0;0;0;0;0;0;Empty
+Hardware Trim Switch;0;0=None 1=Roll 2=Pitch 3=Both;0;0;0;0;0;0;Empty
+Hardware Set Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Hardware Reset Trim Button;0;0=CTrim 1=CDMS 2=CTMS ...;0;0;0;0;0;0;Empty
+Haptic;0;0=Off 1=On;0;0;0;0;0;0;Empty
+"KEYSTROKES";;;;;;;;;
+"Dx Number";"Name";"Keystrokes sequence";"Modifier";"USB HID KeyScan_1";"USB HID KeyScan_2";"Width";"Pause";"Limit";"Explanation"
+DX0;Trigger 1;Empty;0;0;0;0;0;0;Empty
+DX1;WR Weapon release;Empty;0;0;0;0;0;0;Empty
+DX2;Pinky;Empty;0;0;0;0;0;0;Empty
+DX3;Paddle;Empty;0;0;0;0;0;0;Empty
+DX4;NWS Nosewheel Steering;Empty;0;0;0;0;0;0;Empty
+DX5;Trigger 2;Empty;0;0;0;0;0;0;Empty
+DX6;TMS Up;Empty;0;0;0;0;0;0;Empty
+DX7;TMS Right;Empty;0;0;0;0;0;0;Empty
+DX8;TMS Down;Empty;0;0;0;0;0;0;Empty
+DX9;TMS Left;Empty;0;0;0;0;0;0;Empty
+DX10;DMS Up;Empty;0;0;0;0;0;0;Empty
+DX11;DMS Right;Empty;0;0;0;0;0;0;Empty
+DX12;DMS Down;Empty;0;0;0;0;0;0;Empty
+DX13;DMS Left;Empty;0;0;0;0;0;0;Empty
+DX14;CMS Up;Empty;0;0;0;0;0;0;Empty
+DX15;CMS Right;Empty;0;0;0;0;0;0;Empty
+DX16;CMS Down;Empty;0;0;0;0;0;0;Empty
+DX17;CMS Left;Empty;0;0;0;0;0;0;Empty
+DX18;CMS C;Empty;0;0;0;0;0;0;Empty
+DX19;WR UP;Empty;0;0;0;0;0;0;Empty
+DX20;WR Right;Empty;0;0;0;0;0;0;Empty
+DX21;WR Down;Empty;0;0;0;0;0;0;Empty
+DX22;WR Left;Empty;0;0;0;0;0;0;Empty
+DX23;NWS UP;Empty;0;0;0;0;0;0;Empty
+DX24;NWS Right;Empty;0;0;0;0;0;0;Empty
+DX25;NWS Down;Empty;0;0;0;0;0;0;Empty
+DX26;NWS Left;Empty;0;0;0;0;0;0;Empty
+DX27;Trim Nose Down;Empty;0;0;0;0;0;0;Empty
+DX28;Trim Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX29;Trim Nose Up;Empty;0;0;0;0;0;0;Empty
+DX30;Trim Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX31;Trim C;Empty;0;0;0;0;0;0;Empty
+DX32;Trim C + Nose Down;Empty;0;0;0;0;0;0;Empty
+DX33;Trim C + Left Wing Down;Empty;0;0;0;0;0;0;Empty
+DX34;Trim C + Nose Up;Empty;0;0;0;0;0;0;Empty
+DX35;Trim C + Right Wing Down;Empty;0;0;0;0;0;0;Empty
+DX36;TMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX37;TMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX38;TMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX39;TMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX40;DMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX41;DMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX42;DMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX43;DMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX44;CMS C + Up;Empty;0;0;0;0;0;0;Empty
+DX45;CMS C + Right;Empty;0;0;0;0;0;0;Empty
+DX46;CMS C + Down;Empty;0;0;0;0;0;0;Empty
+DX47;CMS C + Left;Empty;0;0;0;0;0;0;Empty
+DX48;WR C + UP;Empty;0;0;0;0;0;0;Empty
+DX49;WR C + Right;Empty;0;0;0;0;0;0;Empty
+DX50;WR C + Down;Empty;0;0;0;0;0;0;Empty
+DX51;WR C + Left;Empty;0;0;0;0;0;0;Empty
+DX52;NWS C + UP;Empty;0;0;0;0;0;0;Empty
+DX53;NWS C + Right;Empty;0;0;0;0;0;0;Empty
+DX54;NWS C + Down;Empty;0;0;0;0;0;0;Empty
+DX55;NWS C + Left;Empty;0;0;0;0;0;0;Empty
+DX56;Pinky Left;Empty;0;0;0;0;0;0;Empty
+DX57;Pinky Right;Empty;0;0;0;0;0;0;Empty
+DX58;Pinky C + Left;Empty;0;0;0;0;0;0;Empty
+DX59;Pinky C + Right;Empty;0;0;0;0;0;0;Empty
+DX60;Trim C;Empty;0;0;0;0;0;0;Empty
+DX61;DMS C;Empty;0;0;0;0;0;0;Empty
+DX62;TMS C;Empty;0;0;0;0;0;0;Empty
+DX63;;Empty;0;0;0;0;0;0;Empty
+"MACROS";;;;;;;;;
+"Macro number 0 ";Macro Name;;;;;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 1 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 2 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 3 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 4 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 5 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 6 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 7 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 8 ";Macro Name;;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0
+"Macro number 9 ";Macro Name;Macro number 9;"Delay 1/10s";"Explanation";;;;;
+"Key number ";"Modifier";"USB HID KeyScan";"Delay 1/10s";"Explanation";;;;;
+Key n0;0;0;0;Empty;0;0;0;0;0
+Key n1;0;0;0;Empty;0;0;0;0;0
+Key n2;0;0;0;Empty;0;0;0;0;0
+Key n3;0;0;0;Empty;0;0;0;0;0
+Key n4;0;0;0;Empty;0;0;0;0;0
+Key n5;0;0;0;Empty;0;0;0;0;0
+Key n6;0;0;0;Empty;0;0;0;0;0
+Key n7;0;0;0;Empty;0;0;0;0;0
+Key n8;0;0;0;Empty;0;0;0;0;0
+Key n9;0;0;0;Empty;0;0;0;0;0
+Key n10;0;0;0;Empty;0;0;0;0;0
+Key n11;0;0;0;Empty;0;0;0;0;0
+Key n12;0;0;0;Empty;0;0;0;0;0
+Key n13;0;0;0;Empty;0;0;0;0;0
+Key n14;0;0;0;Empty;0;0;0;0;0
+Key n15;0;0;0;Empty;0;0;0;0;0
+Key n16;0;0;0;Empty;0;0;0;0;0
+Key n17;0;0;0;Empty;0;0;0;0;0
+Key n18;0;0;0;Empty;0;0;0;0;0
+Key n19;0;0;0;Empty;0;0;0;0;0

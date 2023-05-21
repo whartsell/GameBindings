@@ -25,7 +25,7 @@ local diff = {
 			},
 		},
 		["a2004cdnil"] = {
-			["name"] = "Thrust",
+			["name"] = "Throttle",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -34,6 +34,22 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d10016pnilu10017cdnilvdnilvpnilvunil"] = {
+			["name"] = "Gun-Rocket Trigger",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN1",
+				},
+			},
+		},
+		["d10018pnilu10019cdnilvdnilvpnilvunil"] = {
+			["name"] = "Bomb Release Button",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+			},
+		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
 			["removed"] = {
