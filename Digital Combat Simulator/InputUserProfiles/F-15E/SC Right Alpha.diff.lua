@@ -16,47 +16,21 @@ local diff = {
 				},
 			},
 		},
-		["a2112cdnil"] = {
-			["added"] = {
+		["a2003cdnil"] = {
+			["name"] = "Rudder",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.95,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_X",
+					["key"] = "JOY_RZ",
 				},
 			},
-			["name"] = "Wheel Brake Left",
 		},
-		["a2113cdnil"] = {
-			["added"] = {
+		["a2004cdnil"] = {
+			["name"] = "Thrust",
+			["removed"] = {
 				[1] = {
-					["filter"] = {
-						["curvature"] = {
-							[1] = 0,
-						},
-						["deadzone"] = 0,
-						["hardwareDetent"] = false,
-						["hardwareDetentAB"] = 0,
-						["hardwareDetentMax"] = 0,
-						["invert"] = false,
-						["saturationX"] = 0.95,
-						["saturationY"] = 1,
-						["slider"] = true,
-					},
-					["key"] = "JOY_Y",
+					["key"] = "JOY_Z",
 				},
 			},
-			["name"] = "Wheel Brake Right",
 		},
 	},
 	["keyDiffs"] = {

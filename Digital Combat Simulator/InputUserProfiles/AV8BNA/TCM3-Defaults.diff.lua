@@ -31,7 +31,10 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.08,
+						["deadzone"] = 0.13,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -93,6 +96,70 @@ local diff = {
 		},
 	},
 	["keyDiffs"] = {
+		["d1465pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN50",
+				},
+			},
+			["name"] = "UHF Radio 1 Selector",
+		},
+		["d1471pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN51",
+				},
+			},
+			["name"] = "UHF Radio 1 Preset Channel Decrease",
+		},
+		["d1472pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN52",
+				},
+			},
+			["name"] = "UHF Radio 1 Preset Channel Increase",
+		},
+		["d1487pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN53",
+				},
+			},
+			["name"] = "UHF Radio 2 Selector",
+		},
+		["d1493pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN54",
+				},
+			},
+			["name"] = "UHF Radio 2 Preset Channel Decrease",
+		},
+		["d1494pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN55",
+				},
+			},
+			["name"] = "UHF Radio 2 Preset Channel Increase",
+		},
+		["d1731pnilu1731cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN26",
+				},
+			},
+			["name"] = "COMM FWD: Select COMM 1 (VOIP)",
+		},
+		["d1732pnilu1732cdnilvd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN24",
+				},
+			},
+			["name"] = "COMM AFT: Select COMM 2 (VOIP)",
+		},
 		["d179pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -108,6 +175,38 @@ local diff = {
 				},
 			},
 			["name"] = "Master Warning/Caution Reset",
+		},
+		["d3287pnilunilcd29vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN76",
+				},
+			},
+			["name"] = "Master Arm Switch OFF",
+		},
+		["d3287pnilunilcd29vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN36",
+				},
+			},
+			["name"] = "Master Arm Switch ON",
+		},
+		["d3489pnilunilcd28vd0vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN77",
+				},
+			},
+			["name"] = "Parking Brake ON",
+		},
+		["d3489pnilunilcd28vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN37",
+				},
+			},
+			["name"] = "Parking Brake OFF",
 		},
 		["d3490pnilu3490cd9vd1vpnilvu0"] = {
 			["added"] = {
@@ -229,18 +328,24 @@ local diff = {
 			},
 			["name"] = "Engine Air Start",
 		},
-		["d572pnilunilcdnilvdnilvpnilvunil"] = {
+		["d572pnilu576cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN23",
+					["key"] = "JOY_BTN26",
+					["reformers"] = {
+						[1] = "JOY_BTN12",
+					},
 				},
 			},
 			["name"] = "COMM FWD: Select COMM 1",
 		},
-		["d573pnilunilcdnilvdnilvpnilvunil"] = {
+		["d573pnilu576cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN25",
+					["key"] = "JOY_BTN24",
+					["reformers"] = {
+						[1] = "JOY_BTN12",
+					},
 				},
 			},
 			["name"] = "COMM AFT: Select COMM 2",
@@ -269,6 +374,22 @@ local diff = {
 			},
 			["name"] = "Master Mode AG",
 		},
+		["d59pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN42",
+				},
+			},
+			["name"] = "Altitude Hold On/Off Toggle",
+		},
+		["d62pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN43",
+				},
+			},
+			["name"] = "Automatic Flight Control On/Off Toggle",
+		},
 		["d634pnilu635cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
@@ -280,7 +401,7 @@ local diff = {
 		["dnilp147u301cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN30",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Airbrake OUT",
@@ -288,7 +409,7 @@ local diff = {
 		["dnilp148u301cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN31",
 				},
 			},
 			["name"] = "Airbrake IN",

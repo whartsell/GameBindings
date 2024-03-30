@@ -31,7 +31,10 @@ local diff = {
 						["curvature"] = {
 							[1] = 0,
 						},
-						["deadzone"] = 0.08,
+						["deadzone"] = 0.13,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -65,14 +68,6 @@ local diff = {
 			},
 			["name"] = "Flap Handle - UP else STOP",
 		},
-		["d10012pnilu10010cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN47",
-				},
-			},
-			["name"] = "Flap Handle - DOWN else STOP",
-		},
 		["d10016pnilu10017cdnilvdnilvpnilvunil"] = {
 			["name"] = "Gun-Rocket Trigger",
 			["removed"] = {
@@ -92,7 +87,7 @@ local diff = {
 		["d10043pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN71",
+					["key"] = "JOY_BTN67",
 				},
 			},
 			["name"] = "Arresting Hook Handle - UP",
@@ -100,7 +95,7 @@ local diff = {
 		["d10044pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN69",
+					["key"] = "JOY_BTN65",
 				},
 			},
 			["name"] = "Arresting Hook Handle - DOWN",
@@ -121,10 +116,26 @@ local diff = {
 			},
 			["name"] = "Master Exterior Lights Switch - ON",
 		},
+		["d10139pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "JATO Firing Button (ALE-29A Burst)",
+		},
+		["d145pnilunilcdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN47",
+				},
+			},
+			["name"] = "Flap Handle - DOWN",
+		},
 		["d147pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN30",
+					["key"] = "JOY_BTN29",
 				},
 			},
 			["name"] = "Speedbrake Switch - OPEN",
@@ -132,7 +143,7 @@ local diff = {
 		["d148pnilunilcdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN28",
+					["key"] = "JOY_BTN31",
 				},
 			},
 			["name"] = "Speedbrake Switch - CLOSE",

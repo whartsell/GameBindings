@@ -5,7 +5,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.1,
+							[1] = 0.25,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -26,7 +26,7 @@ local diff = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
-							[1] = 0.15,
+							[1] = 0,
 						},
 						["deadzone"] = 0,
 						["hardwareDetent"] = false,
@@ -50,81 +50,79 @@ local diff = {
 				},
 			},
 		},
-		["a2004cdnil"] = {
-			["name"] = "Throttle",
-			["removed"] = {
+		["a3003cd2"] = {
+			["added"] = {
 				[1] = {
+					["filter"] = {
+						["curvature"] = {
+							[1] = 0,
+						},
+						["deadzone"] = 0,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
+						["invert"] = true,
+						["saturationX"] = 1,
+						["saturationY"] = 1,
+						["slider"] = true,
+					},
 					["key"] = "JOY_Z",
 				},
 			},
+			["name"] = "Wheel Brakes - axis",
 		},
 	},
 	["keyDiffs"] = {
-		["d10016pnilu10017cdnilvdnilvpnilvunil"] = {
+		["d3004pnilu3004cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN2",
+					["key"] = "JOY_BTN26",
 				},
 			},
-			["name"] = "Gun-Rocket Trigger",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN1",
-				},
-			},
+			["name"] = "Wheel Brake Lock",
 		},
-		["d10018pnilu10019cdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN14",
-				},
-			},
-			["name"] = "Bomb Release Button",
-			["removed"] = {
-				[1] = {
-					["key"] = "JOY_BTN2",
-				},
-			},
-		},
-		["d10123pnilunilcdnilvdnilvpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN3",
-				},
-			},
-			["name"] = "Autopilot Override (AFCS Emergency Disconnect)",
-		},
-		["dnilp10113u10119cdnilvdnilvpnilvunil"] = {
+		["d3007pnilu3007cd5vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN10",
 				},
 			},
-			["name"] = "Trim Switch - NOSE UP",
+			["name"] = "Trigger button (release bomb/guncam on) - press",
 		},
-		["dnilp10114u10119cdnilvdnilvpnilvunil"] = {
+		["d3016pnilu3016cd2vd-0.3vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN6",
+					["key"] = "JOY_BTN14",
 				},
 			},
-			["name"] = "Trim Switch - NOSE DOWN",
+			["name"] = "Trim Elevator Nose Up",
 		},
-		["dnilp10115u10119cdnilvdnilvpnilvunil"] = {
+		["d3016pnilu3016cd2vd0.3vpnilvu0"] = {
 			["added"] = {
 				[1] = {
 					["key"] = "JOY_BTN12",
 				},
 			},
-			["name"] = "Trim Switch - LEFT WING DOWN",
+			["name"] = "Trim Elevator Nose Down",
 		},
-		["dnilp10116u10119cdnilvdnilvpnilvunil"] = {
+		["d350pnilu351cdnilvdnilvpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN8",
+					["key"] = "JOY_BTN1",
 				},
 			},
-			["name"] = "Trim Switch - RIGHT WING DOWN",
+			["name"] = "Fire Cannons",
+		},
+		["d84pnilu85cdnilvdnilvpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN2",
+				},
+				[2] = {
+					["key"] = "JOY_BTN4",
+				},
+			},
+			["name"] = "Fire Machineguns",
 		},
 		["dnilp210u214cdnilvdnilvpnilvunil"] = {
 			["name"] = "View Up Right slow",
