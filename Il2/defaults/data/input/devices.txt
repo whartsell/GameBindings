@@ -1,0 +1,5 @@
+configId,guid,model|
+0,%2210eb9cc0-75bd-11ef-0000545345440180%22,VPforce%20Rhino%20FFB%20WarBRD|
+1,%229cad6bd0-1b87-11ee-0000545345440180%22,TCM3-Defaults|
+2,%220d3ee880-f81d-11ed-0000545345440a80%22,Flight%20Control%20Rudder|
+3,%2287ff9150-8fcf-11ef-0000545345440180%22,BuzzBox
