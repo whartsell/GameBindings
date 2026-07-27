@@ -1,7 +1,28 @@
 local diff = {
 	["axisDiffs"] = {
+		["a2001cdnil"] = {
+			["name"] = "Pitch",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_Y",
+				},
+			},
+		},
+		["a2002cdnil"] = {
+			["name"] = "Roll",
+			["removed"] = {
+				[1] = {
+					["key"] = "JOY_X",
+				},
+			},
+		},
 		["a2003cdnil"] = {
 			["added"] = {
+				[1] = {
+					["key"] = "JOY_Z",
+				},
+			},
+			["changed"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
@@ -17,6 +38,9 @@ local diff = {
 				},
 			},
 			["name"] = "Rudder",
+		},
+		["a2004cdnil"] = {
+			["name"] = "Throttle Both",
 			["removed"] = {
 				[1] = {
 					["key"] = "JOY_Z",
@@ -24,7 +48,7 @@ local diff = {
 			},
 		},
 		["a2112cdnil"] = {
-			["changed"] = {
+			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {
@@ -45,7 +69,7 @@ local diff = {
 			["name"] = "Wheel Brake Left",
 		},
 		["a2113cdnil"] = {
-			["changed"] = {
+			["added"] = {
 				[1] = {
 					["filter"] = {
 						["curvature"] = {

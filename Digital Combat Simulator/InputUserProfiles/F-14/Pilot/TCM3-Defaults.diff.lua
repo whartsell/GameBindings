@@ -50,6 +50,9 @@ local diff = {
 							[11] = 1,
 						},
 						["deadzone"] = 0.13,
+						["hardwareDetent"] = false,
+						["hardwareDetentAB"] = 0,
+						["hardwareDetentMax"] = 0,
 						["invert"] = true,
 						["saturationX"] = 1,
 						["saturationY"] = 1,
@@ -83,7 +86,7 @@ local diff = {
 		["d3016pnilunilcd18vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN44",
+					["key"] = "JOY_BTN46",
 				},
 			},
 			["name"] = "Gears Up",
@@ -91,7 +94,7 @@ local diff = {
 		["d3016pnilunilcd18vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN45",
+					["key"] = "JOY_BTN47",
 				},
 			},
 			["name"] = "Gears Down",
@@ -179,7 +182,7 @@ local diff = {
 		["d3044pnilunilcd19vd0vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN47",
+					["key"] = "JOY_BTN45",
 				},
 			},
 			["name"] = "Flaps Down",
@@ -187,7 +190,7 @@ local diff = {
 		["d3044pnilunilcd19vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN46",
+					["key"] = "JOY_BTN44",
 				},
 			},
 			["name"] = "Flaps Up",
@@ -223,6 +226,14 @@ local diff = {
 				},
 			},
 			["name"] = "Refuel Probe extend, Refuel All",
+		},
+		["d3082pnilu3082cd57vd1vpnilvu0"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN32",
+				},
+			},
+			["name"] = "Weapon Selector press",
 		},
 		["d3126pnilu3126cd57vd1vpnilvu0"] = {
 			["added"] = {
@@ -296,30 +307,10 @@ local diff = {
 			},
 			["name"] = "Target designate down / VSL LO",
 		},
-		["d3384pnilu3384cd2vd1vpnilvu0"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN26",
-					["reformers"] = {
-						[1] = "JOY_BTN18",
-					},
-				},
-				[2] = {
-					["key"] = "JOY_BTN25",
-					["reformers"] = {
-						[1] = "JOY_BTN17",
-					},
-				},
-			},
-			["name"] = "Mic Button ICS",
-		},
 		["d3385pnilu3385cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN26",
-					["reformers"] = {
-						[1] = "JOY_BTN17",
-					},
+					["key"] = "JOY_BTN9",
 				},
 			},
 			["name"] = "Mic Button UHF1 (ARC-159)",
@@ -327,10 +318,7 @@ local diff = {
 		["d3386pnilu3386cd2vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN23",
-					["reformers"] = {
-						[1] = "JOY_BTN17",
-					},
+					["key"] = "JOY_BTN11",
 				},
 			},
 			["name"] = "Mic Button UHF2 (ARC-182)",
