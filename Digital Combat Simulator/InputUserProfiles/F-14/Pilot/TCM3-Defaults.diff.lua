@@ -179,22 +179,6 @@ local diff = {
 			},
 			["name"] = "Autopilot On, else Off",
 		},
-		["d3044pnilunilcd19vd0vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN45",
-				},
-			},
-			["name"] = "Flaps Down",
-		},
-		["d3044pnilunilcd19vd1vpnilvunil"] = {
-			["added"] = {
-				[1] = {
-					["key"] = "JOY_BTN44",
-				},
-			},
-			["name"] = "Flaps Up",
-		},
 		["d3056pnilu3056cd35vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
@@ -379,21 +363,53 @@ local diff = {
 			},
 			["name"] = "Altitude Hold Toggle",
 		},
-		["dnilp2021u2021cdnilvdnilvp-1vu0"] = {
+		["d3934pnilu3934cd62vd1vpnilvu0"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN54",
+					["key"] = "JOY_BTN21",
 				},
 			},
-			["name"] = "Trim Rudder Left",
+			["name"] = "Jester Context Action (short, hold, double click)",
 		},
-		["dnilp2021u2021cdnilvdnilvp1vu0"] = {
+		["d3975pnilunilcd12vd1vpnilvunil"] = {
 			["added"] = {
 				[1] = {
-					["key"] = "JOY_BTN55",
+					["key"] = "JOY_BTN69",
 				},
 			},
-			["name"] = "Trim Rudder Right",
+			["name"] = "Pilot Throw Horns Right",
+		},
+		["d3976pnilunilcd12vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN68",
+				},
+			},
+			["name"] = "Pilot Throw Horns Left",
+		},
+		["d3977pnilunilcd12vd1vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN13",
+				},
+			},
+			["name"] = "But I am le tired..",
+		},
+		["d3998pnilunilcd19vd0.5vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN45",
+				},
+			},
+			["name"] = "Flaps Down",
+		},
+		["d3998pnilunilcd19vd0.8vpnilvunil"] = {
+			["added"] = {
+				[1] = {
+					["key"] = "JOY_BTN44",
+				},
+			},
+			["name"] = "Flaps Up",
 		},
 		["dnilp3020u3020cd18vdnilvp-1vu0"] = {
 			["added"] = {
